@@ -157,15 +157,13 @@ flowchart LR
 | **Pitch Problem Card (CP3)** | Chuẩn bị 3 candidate cá nhân và đưa vào bảng pitch của nhóm: **#10** nhận diện bàn/khối xếp gạch từ ảnh; **#11** xác định nguyên nhân sai sau bài luyện AI; **#12** chuẩn hóa yêu cầu tuyển dụng để so sánh JD. | Bảng pitch của nhóm có đủ **12 candidate**, trong đó có 3 candidate đứng tên Nguyễn Quang Tiệp. Chưa đồng nghĩa với việc nhóm đã chọn candidate của tôi. |
 | **Phản biện bài của bạn khác (CP3)** | Đặt câu hỏi cho **#3 (Nguyễn Lương Phúc)**: “Nếu nhóm ghim (pin) ngay tin nhắn chốt quyết định lên đầu group thì có giải quyết được không?”; cho **#5 (Nguyễn Tiến Đạt)**: “Nỗi đau này do thiếu công cụ AI hay đơn giản là do ý thức và kỷ luật gửi bài của thành viên?”; cho **#9 (Trần Xuân Lộc)**: “Làm sao AI phân biệt được chính xác bình luận của người dùng thật với nick seeding được thuê viết mượt?” | Các câu hỏi đã được ghi tại mục **2.1 Pitch** trong `report/team/group_report.md`. Chúng đặt vấn đề về giải pháp không dùng AI, nguyên nhân thật của pain và giới hạn khả thi của AI; **báo cáo nhóm chưa ghi câu trả lời hoặc thay đổi sau phản biện**. |
 | **Nhận phản biện (CP3)** | **#10:** Trần Xuân Lộc hỏi lỗi do chất lượng ảnh hay mô hình AI. **#11:** Nguyễn Lương Phúc hỏi cách phân biệt hổng kiến thức với đọc nhầm đề. **#12:** Nguyễn Tiến Đạt hỏi cách đo độ phù hợp với các yếu tố mềm như môi trường/lộ trình thăng tiến. | Ba câu hỏi đã có trong báo cáo nhóm. **Hướng kiểm chứng dự kiến:** (1) phân loại nguyên nhân ảnh lỗi; (2) thu thập lập luận của học viên thay vì chỉ nhìn đáp án; (3) tách yêu cầu trong JD có thể kiểm chứng khỏi đánh giá chủ quan. Chưa ghi nhận đây là các bước đã được nhóm thực hiện. |
-| **Gom cluster / cây OST (CP3)** | **Chưa có thông tin xác nhận phần tôi thực hiện.** | Báo cáo nhóm tại thời điểm đối chiếu còn để trống mục 2.2–2.3; bổ sung phần việc thực tế nếu tôi tham gia. |
-| **Chọn candidate problem (CP3)** | **Chưa có thông tin về candidate cuối cùng nhóm chọn hoặc vai trò của tôi trong việc chấm điểm.** | Mục 2.4 trong báo cáo nhóm còn trống; cập nhật theo quyết định thật. |
-| **Kiểm chứng / research (CP4)** | **Chưa có bằng chứng về buổi phỏng vấn, survey hoặc công cụ tôi đã research cho nhóm.** | Chỉ bổ sung người được hỏi theo vai trò, thời điểm, bằng chứng và link nguồn sau khi thực hiện. |
-| **Quy trình nhóm (CP5)** | **Chưa có thông tin xác nhận tôi vẽ/sửa quy trình nhóm.** | Thêm sơ đồ, bước phụ trách và thay đổi thực tế nếu có. |
-| **Problem Statement (CP5–CP6)** | **Chưa có thông tin xác nhận đóng góp của tôi vào v0/v1.** | Cập nhật ý phản biện hoặc trường đã sửa sau khi nhóm viết. |
-| **Mức can thiệp AI (CP6)** | **Chưa có thông tin xác nhận vai trò của tôi trong đánh giá No AI / Rule / Workflow / Agent.** | Cập nhật lập luận tôi thực sự đưa ra sau thảo luận. |
-| **Quyết định (CP6)** | **Chưa có quyết định Go / Not Yet / No-Go được ghi trong báo cáo nhóm.** | Ghi ý kiến cá nhân, ngưỡng dừng và kết luận của nhóm khi đã thống nhất. |
-
-> **Nguồn đối chiếu hoạt động CP3:** [`report/team/group_report.md` — mục 2.1 Pitch](../team/group_report.md), đặc biệt các dòng candidate #3, #5, #9, #10, #11, #12. Nội dung phản biện được trích từ bản hiện có trên repo; việc ghi tên ở bảng pitch **không thay thế bằng chứng commit hoặc minh chứng phần việc CP4–CP6**.
+| **Gom cluster / cây OST (CP3)** | | Nhóm gom 12 candidate thành 4 cụm. |
+| **Chọn candidate problem (CP3)** | | Nhóm chọn #7 với 34/35 điểm. |
+| **Kiểm chứng / research (CP4)** | | |
+| **Quy trình nhóm (CP5)** | | |
+| **Problem Statement (CP5–CP6)** | Cập nhật mục 7 trong commit `fbea3bc`. | Nêu vị trí AI soạn nháp và tiêu chí đủ việc, đúng phân công, dễ đối chiếu. |
+| **Mức can thiệp AI (CP6)** | Cập nhật mục 6 trong cùng commit. | So sánh bốn mức can thiệp và xác định người duyệt bản nháp. |
+| **Quyết định (CP6)** | | Nhóm chọn Not Yet vì còn thiếu kiểm chứng ngoài nhóm và phép đo thực tế. |
 
 ---
 
@@ -175,12 +173,10 @@ flowchart LR
 |---|---|---|---|---|
 | **CP1 Scan** | Trao đổi với ChatGPT để mở rộng danh sách vấn đề từ trải nghiệm học AI, lập trình, trò chơi, mua sắm, việc làm và công cụ trực tuyến; tổ chức thành các Job Story theo bốn lăng kính. | Có thêm góc nhìn đa lĩnh vực, actor và cách nhận diện nguồn bằng chứng; lập được **11 candidate** để xem xét. | Một số ý chỉ phản ánh trải nghiệm cá nhân, chưa phải “pain từ người khác”; AI không thể tự biết thời gian và tần suất thật. | Giữ tình huống có dấu vết đã xảy ra; đánh dấu **“chưa đo/chưa kiểm chứng”** cho thời gian, số lượt và phản hồi người khác; không dùng phỏng đoán làm bằng chứng. |
 | **CP2 Problem Card** | Dùng ChatGPT hỗ trợ chọn Top 3, rút gọn phạm vi, dựng quy trình Mermaid và phản biện bottleneck/metric của từng card. | Phát hiện card xếp gạch cần tách lỗi đọc ảnh khỏi lỗi solver; card học AI cần phân biệt chủ đề câu sai với nguyên nhân; card tuyển dụng phải tập trung vào yêu cầu JD. | AI đã đưa thời gian **3 / 15 / 25 phút cho bottleneck** và tổng **7 / 40 / 80 phút** dựa trên ước tính, không phải phép đo; có nguy cơ đề xuất AI quá sớm. | Ghi rõ số phút **ước tính**, chưa gọi là baseline thực đo; bổ sung cách đo lại; ưu tiên thử **No AI/Rule** trước khi kết luận cần Workflow/AI. |
-| **CP4 Research** | **Chưa có thông tin về việc tôi dùng AI để research trong CP4.** | Chưa có dữ liệu. | Chưa có dữ liệu. | Khi thực hiện, tự mở và xác nhận từng nguồn; sau đó ghi công cụ, link và chỉnh sửa thật. |
-| **CP5 Quy trình** | **Chưa có thông tin về lần dùng AI cho quy trình chung.** | Chưa có dữ liệu. | Chưa có dữ liệu. | Nếu dùng AI chuyển sang Mermaid, tự đối chiếu actor, bước, thời gian và handoff. |
-| **CP5–6 Problem Statement** | **Chưa có thông tin về việc tôi dùng AI phản biện Problem Statement của nhóm.** | Chưa có dữ liệu. | Chưa có dữ liệu. | Sau khi nhóm có v0/v1, chỉ ghi điểm yếu thực sự được phản biện và phần tôi đã sửa. |
-| **CP6 Mức can thiệp / quyết định** | **Chưa có thông tin về lần dùng AI trong CP6.** | Chưa có dữ liệu. | Chưa có dữ liệu. | Ghi rõ vì sao phương án đơn giản hơn không đủ, ai kiểm đầu ra và kết luận nhóm thực tế. |
-
-> **Giới hạn sử dụng AI:** Ở CP3, các câu hỏi phản biện giữa thành viên phải do người học tự thực hiện. Ở CP7, nội dung reflection phải do tôi tự viết từ trải nghiệm thực tế theo `RULES.md`.
+| **CP4 Research** | | | | |
+| **CP5 Quy trình** | | | | |
+| **CP5–6 Problem Statement** | Nhờ ChatGPT soạn nháp mục 7 và đối chiếu lại với v0. | Phân biệt thời gian soạn/soát và tổng thời gian sau họp. | Bản đầu dùng ước tính từ pitch và để trống target. | Tôi yêu cầu đọc lại báo cáo mới để cập nhật mục tiêu dưới 7 phút cho riêng khâu soạn và rà soát. |
+| **CP6 Mức can thiệp / quyết định** | Nhờ ChatGPT hỗ trợ bảng so sánh và rà AI Canvas. | Làm rõ bước AI soạn, người duyệt và Rule gửi. | Bản đầu ghi người phụ trách trực tiếp gửi danh sách. | Tôi yêu cầu bám đúng template và để trống chỗ thiếu dữ liệu. Lựa chọn Workflow của nhóm chưa đủ để kết luận người dùng muốn tự động gửi. |
 
 ---
 
@@ -190,17 +186,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Khi một bạn trình bày việc phải tìm lại quyết định cũ trong nhóm chat, tôi hỏi liệu ghim tin nhắn chốt có giải quyết được không. Qua ví dụ đó, tôi thấy cần hiểu vì sao thông tin bị thất lạc trước khi đề xuất công cụ tìm kiếm.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Nhóm từng đưa ý tưởng AI ghi âm và bot tự giao việc vào cây OST. Khi gạch hai ý này, nhóm xác định rõ hơn điều cần giải quyết: người ghi chép mất thời gian đọc lại chữ viết tắt, nhớ phần phân công và soạn danh sách sau họp.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Ở card về bài luyện AI, tôi thu hẹp kết luận sau câu hỏi làm sao phân biệt hổng kiến thức với đọc nhầm đề. Đáp án sai cho biết chủ đề cần xem lại. Muốn biết nguyên nhân, cần xem lập luận của học viên hoặc cách họ làm lại một câu tương tự.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Báo cáo chưa có kết quả phỏng vấn ngoài nhóm để tôi nhận xét điều gì gây bất ngờ. Khi xem lại số phút ghi trong pitch, tôi thấy vẫn cần bấm giờ các buổi họp thật để biết khâu nào tốn công và mức độ lặp lại.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điểm dễ nhầm nhất là chọn mốc bắt đầu và kết thúc phép đo. Từ lúc mở ghi chú đến khi gửi tin nhắn có cả định dạng và gửi. Nếu dùng toàn bộ khoảng đó để đánh giá mục tiêu dưới 7 phút cho riêng khâu soạn và rà soát, kết quả sẽ khó diễn giải.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ hỏi sớm hơn ai xác nhận danh sách việc chuẩn và xử lý thế nào khi ghi chú thiếu người phụ trách. Tôi sẽ đề nghị thử mẫu ghi việc thủ công và Workflow trên cùng một ghi chú, rồi so cả thời gian sửa lẫn số việc sai hoặc sót.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Trưởng nhóm hoặc thư ký mất thời gian chuyển ghi chú sau họp thành danh sách phân công. Hai bước tốn công là viết lại ghi chú và rà xem có sót việc hay nhầm người. Nhóm đặt mục tiêu thời gian soạn và rà soát trung vị dưới 7 phút, đồng thời ghi đủ việc đã chốt. AI chỉ soạn nháp và gắn cờ thông tin còn thiếu để người ghi chép xác minh trước khi gửi. Nhóm chọn Workflow vì các bước đã biết trước và phần cần AI là diễn giải ghi chú. Quyết định hiện tại là Not Yet vì còn thiếu kiểm chứng ngoài nhóm và số liệu đo từ các buổi họp thật.
 
 ---
 
