@@ -62,7 +62,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 Quy trình nháp hiện tại:
 
-```text
+```[1. Nghe giảng lúc lái xe] → [2. Cố nhớ ý chính] → [3. Về nhà nhắn hỏi lại bạn: 15'] ← BOTTLENECK
+→ [4. Chờ bạn rep: 5'] → [5. Ghi vào sổ: 2']
 
 ```
 
@@ -83,7 +84,8 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```text
+```[1. Đọc tin dặn dò: 1'] → [2. Nhớ tạm] → [3. Tối mở máy: 5'] 
+→ [4. Lội chat tìm lại tin: 10'] ← BOTTLENECK → [5. Gõ tay vào Notion: 5']
 
 ```
 
@@ -104,21 +106,23 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```text
+```[1. Hỏi lịch] → [2. Dò G-Calendar: 3'] → [3. Dò lịch C: 2'] ← BOTTLENECK 
+→ [4. Gõ tin nhắn: 3'] → [5. Chờ chốt: 10']
 
 ```
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số:2 (Gom deadline từ tin nhắn Zalo/Canvas)
+- Vì sao:Vì đây là bài toán "sống còn" đối với lịch trình điên rồ hiện tại của tôi (vừa học B, vừa học Học viện A, vừa cày C). Bài toán này cũng có đầu vào (Text lộn xộn) và đầu ra (Data có cấu trúc) rất phù hợp để áp dụng khả năng xử lý ngôn ngữ tự nhiên của AI.
+- Câu hỏi muốn nhóm phản biện:Làm sao giải quyết vấn đề Zalo không cho phép bot tự động đọc tin nhắn trong group chat?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| AI sẽ tính sai ngày tháng nếu tin nhắn ghi mơ hồ kiểu "tuần sau nộp" nhưng bot không có dữ liệu ngày hiện tại.|Đồng ý |Thêm tham số current_date vào hệ thống prompt để AI có mốc thời gian tính toán. |
+| Lấy dữ liệu từ Zalo tự động là không khả thi (Feasibility).|Đồng ý |Chuyển hướng (Workaround): Tạo một Bot Telegram cá nhân. Khi thấy tin nhắn quan trọng, tôi chỉ cần copy paste vào Bot, AI trong Bot sẽ làm phần còn lại.|
 
 ---
 
