@@ -54,10 +54,10 @@ OUTCOME: Tối ưu hóa thời gian xử lý thông tin, điều phối công vi
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
+-
      ✗ "Phần mềm tự động gộp các file PDF"       ← solution, gạch khỏi tầng này
      ✗ "Bot Telegram/Zalo tự động đòi nợ task"   ← solution, gạch khỏi tầng này
      ✗ "Tool AI cào dữ liệu bình luận Shopee"    ← solution, gạch khỏi tầng này
--
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
