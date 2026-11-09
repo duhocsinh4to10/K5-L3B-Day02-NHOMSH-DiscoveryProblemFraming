@@ -45,21 +45,18 @@
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
-```text
+```
 OUTCOME: Giảm thời gian trưởng nhóm dành cho việc viết To-do list sau họp.
 ├── Opportunity: Ghi chép lúc họp bị lộn xộn, viết tắt.
 ├── Opportunity: Nhớ lại và đối chiếu để không sót việc tốn thời gian.
 └── Opportunity: Phải tự format lại văn bản cho chỉn chu trước khi gửi group.
-     ✗ "AI ghi âm tự động nhảy vào cuộc gọi"  ← solution, gạch khỏi tầng này
-     ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
--
-     ✗ "Phần mềm tự động gộp các file PDF"       ← solution, gạch khỏi tầng này
-     ✗ "Bot Telegram/Zalo tự động đòi nợ task"   ← solution, gạch khỏi tầng này
-     ✗ "Tool AI cào dữ liệu bình luận Shopee"    ← solution, gạch khỏi tầng này
-
+-```
+     ✗ "AI ghi âm tự động nhảy vào cuộc gọi"  ← solution, gạch khỏi tầng này
+     ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này
+```
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
