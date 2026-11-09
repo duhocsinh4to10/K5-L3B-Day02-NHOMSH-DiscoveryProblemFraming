@@ -82,14 +82,12 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 |Trưởng nhóm mất 15–20 phút sau họp để dịch chữ viết nháp thành to-do list chỉn chu. |Value |5 |2 |✅ |
+| 2 |Bước tốn thời gian nhất không phải gõ chữ, mà là nhớ lại xem có ghi sót ý không và phân đúng người. |Value |5 |2 |✅ |
+| 3 |AI ghi âm sẽ trích xuất sai hoặc sót ý nếu thành viên nói chèn lên nhau hoặc tranh luận sôi nổi. |Feasibility |5 |1 |✅ |
+| 4 |Các thành viên có thói quen đọc To-do list trong group Zalo/Messenger thay vì lên Trello/Notion. |Value |4 |3 |— |
+| 5 |Các thành viên không ngại đưa nội dung họp nhóm (chưa bảo mật cao) vào công cụ AI. |Viability |4 |2 |Hỏi sau lab |
 | 6 | | | | | |
-
-*Điền 4–6 giả định; xóa dòng thừa.*
 
 Giả định nhóm kiểm chứng trong buổi này:
 
@@ -101,29 +99,34 @@ Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file 
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) |Trưởng nhóm đồ án Phân tích thiết kế hệ thống, 5 thành viên|
+| Câu nói đáng nhớ nhất (nguyên văn) |"Lúc họp cãi nhau hăng quá tao chỉ ghi vội 'A làm DB, B làm UI'. Tối về phải lội lại tin nhắn, nặn óc nhớ lại xem chốt deadline ngày nào rồi mới dám gõ lên group." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Chiều thứ Sáu tuần trước, họp tại quán cà phê. |
+| Hiện đang xử lý bằng cách nào (workaround)? |Tự lội lại lịch sử chat, mở file nháp, rồi gõ thủ công thành checklist để gửi Zalo. |
+| Mất bao lâu, bao lần? |Mất gần 20 phút cho một buổi họp, một tuần họp 2 lần. |
+| Insight / opportunity rút ra |Nỗi đau nằm ở bước "cấu trúc hóa thông tin" từ nháp/trí nhớ thành văn bản chuẩn, không phải do gõ chậm. |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+|Phỏng vấn |3 |2/3 mất 15–20 phút để gõ lại nháp. 1 bạn từng thử bật Otter ghi âm ở quán cà phê nhưng bỏ vì AI nhận diện sai khi 2 người nói chèn lên nhau. |1 người dùng chung Notion, ép mọi người tự gõ task của mình lúc họp (không cần AI). |
+|Poll trong lớp |8 |6/8 xác nhận đã từng quên việc hoặc cãi nhau do To-do list sau họp bị thiếu ý. |2/8 nói nhóm nhỏ gọn, nhắn tin 1 dòng là xong, không cần format. |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Từ ý định ban đầu là "AI ghi âm tự chép lại cuộc họp", nhóm thu hẹp thành "Nhận đầu vào là ghi chép thô/viết tắt của trưởng nhóm, AI format thành To-do list chuẩn". Điều này giúp né được rủi ro AI nghe sót khi có người nói chèn lên nhau, đồng thời không phụ thuộc vào chất lượng micro.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-
+|Otter.ai / Fireflies.ai |https://otter.ai |Ghi âm trực tiếp và trích xuất action item |Tự động hóa hoàn toàn, không cần gõ nháp |Tiếng Việt kém, hay bỏ sót ý nếu môi trường ồn hoặc nhiều người tranh luận nói chèn lên nhau. |Rủi ro rác dữ liệu cao, không nên cho AI trực tiếp nghe ghi âm trong bối cảnh họp sinh viên. |
+|Zoom AI Companion |https://zoom.us/ai-companion |Tóm tắt và chia việc từ cuộc gọi online |Có sẵn trong app, chia bước rất chuẩn |Nhóm sinh viên thường họp offline hoặc call Zalo, không dùng Zoom trả phí. |Không nên phụ thuộc vào AI của platform họp. |
+|AI Prompts (ChatGPT/Claude) |- |Chuyển đổi từ text nháp sang To-do list định dạng Markdown |Miễn phí, linh hoạt, xử lý tiếng Việt cực tốt |Trưởng nhóm phải tự dán text và tự copy gửi đi. |Giải pháp thực tế nhất: Dùng Prompt kỹ thuật số, thêm bước người duyệt. |
+**Kết luận research:**
+```
+Dùng AI nghe trực tiếp là quá rủi ro do tiếng ồn và việc nói chèn lên nhau.
+Hướng hợp lý: Trưởng nhóm ghi nháp (Rule/Thủ công) → AI cấu trúc hóa thành To-do list (Prompt chuẩn) → Trưởng nhóm duyệt và sửa → Trưởng nhóm gửi Zalo.
+```
 ---
 
 ## 4. Quy trình trước/sau (CP5)
