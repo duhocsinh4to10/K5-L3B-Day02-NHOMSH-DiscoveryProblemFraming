@@ -53,10 +53,11 @@ OUTCOME: Giảm thời gian trưởng nhóm dành cho việc viết To-do list s
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
--```
+```
      ✗ "AI ghi âm tự động nhảy vào cuộc gọi"  ← solution, gạch khỏi tầng này
      ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này
 ```
+
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
