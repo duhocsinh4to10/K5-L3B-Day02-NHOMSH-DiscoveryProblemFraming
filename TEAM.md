@@ -15,7 +15,7 @@
 | 1 | Nguyễn Lương Phúc | | | |
 | 2 | Nguyễn Tiến Đạt | | | |
 | 3 | Trần Xuân Lộc | 2A202603951| | Kaylez-TXL |
-| 4 | Nguyễn Quang Tiệp | | | |
+| 4 | Nguyễn Quang Tiệp | 2A202603946 | | nguyenquangtiep |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
