@@ -67,7 +67,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 |Tổng hợp slide (#8) |4 |4 |5 |4 |4 |4 |5 |30 |
 |Gom deadline Zalo (#4) |4 |4 |5 |4 |2 |4 |5 |28 |
 
-**Candidate được chọn:**Tạo To-do list sau họp (#7).
+**Candidate được chọn:** Tạo To-do list sau họp (#7).
 
 **Vì sao chọn:** Giải quyết nỗi đau thật, tiết kiệm ngay 15–20 phút/lần gõ lại nháp và nhớ ý bị sót, khả thi về công nghệ.
 
