@@ -51,7 +51,8 @@ OUTCOME: Giảm thời gian trưởng nhóm dành cho việc viết To-do list s
 ├── Opportunity: Nhớ lại và đối chiếu để không sót việc tốn thời gian.
 └── Opportunity: Phải tự format lại văn bản cho chỉn chu trước khi gửi group.
      ✗ "AI ghi âm tự động nhảy vào cuộc gọi"  ← solution, gạch khỏi tầng này
-     ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này```
+     ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này
+```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 -
