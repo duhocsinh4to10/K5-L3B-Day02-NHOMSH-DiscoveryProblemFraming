@@ -49,16 +49,16 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi đang chạy xe máy và có lớp học online Học viện A, tôi muốn có bản tóm tắt ý chính và deadline thầy dặn, để không bị hổng kiến thức do không thể ghi chép. |
+| Actor |Sinh viên học online nhưng trùng giờ di chuyển giao thông (Đ). |
+| Thời điểm / bối cảnh |Khung giờ 18h-19h30, lúc đang kẹt xe trên đường từ trường B về nhà. |
+| Quy trình hiện tại (3–7 bước) |1. Nghe giảng qua tai nghe lúc đi đường (60') · 2. Thầy dặn dò deadline/ý chính · 3. Cố lẩm nhẩm nhớ trong đầu · 4. Về nhà nhắn hỏi lại bạn bè (15') · 5. Ghi chú lại vào sổ (5'). |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4: Chờ bạn bè online và xác nhận lại thông tin, mất 15-20 phút, đôi khi bạn bè cũng nhớ nhầm.|
+| Impact (nếu không giải thì sao) |Lái xe mất tập trung (nguy hiểm). Bị lọt thông tin quan trọng hoặc làm sai yêu cầu bài tập nhóm. |
+| Success metric (baseline → target) |Thời gian tìm lại thông tin bài giảng giảm từ 20 phút xuống 2 phút. Nắm đủ 100% ý chính. |
+| Phương án không dùng AI |Nhờ một bạn trong lớp (đang ngồi máy tính) type hộ nội dung rồi gửi cho. (Rủi ro: Phụ thuộc vào người khác, nợ ân tình). |
+| Giả thuyết về AI (nếu có) |AI (Audio-to-text) tham gia meeting, tóm tắt thành bullet points và gửi về điện thoại ngay sau buổi học. |
+| Cảm nhận nhanh | Agent / Workflow (Rủi ro Feasibility cao do dính tạp âm xe cộ hoặc mạng 4G yếu). |
 
 Quy trình nháp hiện tại:
 
@@ -70,16 +70,16 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi nhận được tin nhắn deadline trên Zalo hoặc Canvas, tôi muốn thông tin đó tự động phân tích và đẩy vào Notion cá nhân, để không bao giờ quên việc. |
+| Actor |Sinh viên bận rộn (học 2 trường B, Học viện A và làm C). |
+| Thời điểm / bối cảnh |Hằng ngày, đặc biệt là khi đang chạy xe hoặc đang làm part-time. |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc tin nhắn dặn dò (1') · 2. Nhớ tạm trong đầu · 3. Tối về nhà mở máy tính (5') · 4. Lội lại nhóm chat tìm tin nhắn (10') · 5. Gõ tay vào Notion (5').|
+| Bottleneck (bước nào, mất bao nhiêu phút) |Bước 4: Lội lại tin nhắn nhóm chat lộn xộn tìm đúng câu dặn dò, mất 10-15 phút. |
+| Impact (nếu không giải thì sao) |Trễ deadline môn học. Tốn gần 1 tiếng mỗi tuần rà soát lại thông tin. Bị stress vì cảm giác "quên việc". |
+| Success metric (baseline → target) |Thời gian tổng hợp task giảm từ 45 phút/tuần xuống dưới 5 phút. Số lần trễ việc giảm về 0. |
+| Phương án không dùng AI | Dùng báo thức điện thoại. (Rủi ro: Báo thức kêu lúc kẹt xe đành tắt đi, không gom chung được data).|
+| Giả thuyết về AI (nếu có) |Forward tin nhắn vào Telegram Bot, LLM đọc hiểu ngữ cảnh ngày tháng, format chuẩn JSON bắn thẳng lên Notion. |
+| Cảm nhận nhanh | Workflow. |
 
 Quy trình nháp hiện tại:
 
@@ -91,16 +91,16 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story |Khi team B hẹn lịch họp nhóm, tôi muốn họ biết ngay các khung giờ rảnh hiếm hoi của tôi, để không phải chat qua lại xếp lịch mệt mỏi. |
+| Actor |Sinh viên làm việc nhóm nhưng lịch trình kín mít (Đ). |
+| Thời điểm / bối cảnh |Lúc bắt đầu tuần mới hoặc vừa nhận đồ án tại B. |
+| Quy trình hiện tại (3–7 bước) | 1. Nhóm trưởng tag hỏi lịch · 2. Dò Google Calendar học (3') · 3. Dò lịch làm C (2') · 4. Gõ tin nhắn báo khung giờ rảnh (3') · 5. Tranh luận chốt giờ (10').|
+| Bottleneck (bước nào, mất bao nhiêu phút) |Bước 2, 3, 4: Mò mẫm đối chiếu chéo nhiều lịch và gõ tin nhắn trả lời mất 8-10 phút. |
+| Impact (nếu không giải thì sao) |Gây xích mích nhóm, bị đánh giá thái độ hợp tác kém. Nhóm trưởng ức chế. |
+| Success metric (baseline → target) |Thời gian phản hồi giờ rảnh cho team giảm từ 10 phút xuống 1 phút. |
+| Phương án không dùng AI |Dùng Calendly hoặc Google Calendar Share, ép các bạn tự vào xem lúc nào tôi rảnh thì book. (Rủi ro: Các bạn lười, vẫn thích hỏi thẳng trên group chat). |
+| Giả thuyết về AI (nếu có) |AI check lịch Google + Trello của Đ. Khi có người tag "@Đ lịch tuần này sao?", bot tự sinh câu trả lời nháp để Đ copy gửi ngay. |
+| Cảm nhận nhanh | Rule / Workflow. |
 
 Quy trình nháp hiện tại:
 
