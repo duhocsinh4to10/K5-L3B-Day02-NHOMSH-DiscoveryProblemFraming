@@ -24,9 +24,9 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
+| 7 | Trần Xuân Lộc | Khi họp nhóm xong, tôi muốn có ngay danh sách chia việc (To-do list), để không ai quên việc hoặc cãi nhau | Trưởng nhóm hoặc người phụ trách ghi chép | Bước 3 & 4: Dịch từ chữ viết nháp thành văn bản chỉn chu và nhớ lại xem có ghi sót ý không (15–20 phút) | |
+| 8 | Trần Xuân Lộc | Khi gần thi cuối kỳ, tôi muốn gom các ý chính từ nhiều file slide bài giảng vào một nơi, để ôn thi nhanh hơn | Học sinh, Sinh viên các trường đại học | Bước 4: Đọc và chép tay/copy các ý chính từ 10–15 file bài giảng sang Word (120 phút) | |
+| 9 | Trần Xuân Lộc | Khi mua đồ đắt tiền trên mạng, tôi muốn lọc ra các đánh giá thật, để không bị lừa mua phải hàng dỏm | Người mua sắm online (Shopee, Lazada, TikTok) | Bước 2 & 4: Cuộn đọc hàng chục bình luận và đau đầu suy luận phân biệt nick ảo (15–20 phút) | |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
