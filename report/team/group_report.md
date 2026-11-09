@@ -63,9 +63,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| Khi gần thi cuối kỳ, tôi muốn gom các ý chính từ nhiều file slide bài giảng vào một nơi, để ôn thi nhanh hơn  |5 |5 |4 |5 |5 |5 |5 |34 |
+| Khi tìm kiếm việc làm, tôi muốn đối chiếu yêu cầu tuyển dụng với năng lực bản thân, để lựa chọn vị trí phù hợp và xác định kỹ năng cần bổ sung.|5 |4 |3 |4 |4 |4 |4 |28 |
+| Khi họp nhóm xong, tôi muốn có ngay danh sách chia việc (To-do list), để không ai quên việc hoặc cãi nhau |4 |5 |3 |4 |4 |4 |4 |28 |
 
 **Candidate được chọn:**
 
