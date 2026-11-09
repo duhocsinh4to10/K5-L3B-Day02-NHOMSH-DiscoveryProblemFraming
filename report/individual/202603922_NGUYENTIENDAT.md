@@ -31,9 +31,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+-Giữ lại: Ý #4 (Chia nhỏ tài liệu thành flashcard ôn tập). AI đã giúp tôi nhìn ra cách tận dụng "thời gian chết" (micro-learning) rất phù hợp với lịch trình bận rộn.
 
----
+---Bỏ: AI gợi ý "Dùng bot tự động làm bài tập C". Tôi bỏ vì rủi ro đạo đức, chất lượng (Viability), và mục đích đi làm là để lấy kinh nghiệm thật.
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
@@ -41,9 +41,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Gom deadline từ tin nhắn Zalo/Canvas (#2)| Nỗi đau lớn nhất, ảnh hưởng trực tiếp đến kết quả học tập và công việc. Có thể ứng dụng AI để phân tích tin nhắn dạng text lộn xộn.| Zalo chặn API, làm sao để tool đọc được tin nhắn Zalo tự động?|
+| 2 |Tóm tắt bài giảng lúc chạy xe (#1) |Pain thật, rất nhiều sinh viên học liên thông/văn bằng 2 gặp phải khi học online. | Có vi phạm quyền riêng tư khi record lại bài giảng của thầy cô không?|
+| 3 |Làm thợ sửa format đồ án cho team (#8) |Pain từ người khác cực kỳ nhức nhối, mất thời gian vô bổ. | AI có khả năng đồng nhất văn phong (tone of voice) giữa các đoạn không?|
 
 ### Problem Card #1
 
