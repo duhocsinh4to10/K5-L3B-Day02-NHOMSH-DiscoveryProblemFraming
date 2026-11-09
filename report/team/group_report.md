@@ -35,11 +35,10 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| A — Báo cáo / tổng hợp |2, 8, 12  | Gom thông tin nhiều nguồn rồi chuẩn hóa/viết lại: Mất thời gian đọc, đối chiếu và nhặt nhạnh dữ liệu từ nhiều nguồn khác nhau (4-5 file lab, 10-15 slide bài giảng, nhiều bản JD việc làm) thành cấu trúc gọn gàng để dễ học tập/ra quyết định. |
+| B — Tìm kiếm | 3, 4 | Tìm đúng thông tin trong nhiều nguồn rời rạc: Lội tìm lại các quyết định cũ, tin nhắn dặn dò hoặc deadline bị trôi lộn xộn trong các nhóm chat, Zalo, Canvas. |
+| C — Theo dõi việc & Tiến độ |1, 5, 7  | Theo dõi action item, nhắc việc & tiến độ: Sau cuộc họp hoặc khi sync nhóm, việc thu thập thông tin tiến độ bị rời rạc, mất thời gian chờ đợi, cần chốt danh sách để không bỏ sót hoặc làm trùng việc. |
+| D — Phân tích, chẩn đoán & lọc nhiễu | 6, 9, 10, 11  | Suy luận lỗi và trích xuất ý nghĩa sâu: Vượt qua mức văn bản thuần túy, cần AI phân tích dữ liệu phức tạp (nhận diện ảnh trò chơi, lọc nick ảo seeding, chẩn đoán nguyên nhân câu sai) để tìm ra điểm lỗi và đưa ra thông tin chính xác. |
 
 
 ### 2.3. Opportunity Solution Tree rút gọn
@@ -47,10 +46,14 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Tối ưu hóa thời gian xử lý thông tin, điều phối công việc và ra quyết định trong học tập/làm việc
+├── Opportunity A: Việc đọc, đối chiếu và chuẩn hóa thông tin từ nhiều tài liệu/nguồn dài tốn quá nhiều công sức
+├── Opportunity B: Các quyết định, tin nhắn dặn dò quan trọng dễ bị trôi và rất mất thời gian để lục tìm lại
+├── Opportunity C: Việc chốt danh sách phân công và thu thập tiến độ nhóm sau các buổi họp bị rời rạc, dễ sót việc
+└── Opportunity D: Khó khăn trong việc tự chẩn đoán lỗi sai và lọc nhiễu (thông tin giả/rác) từ dữ liệu phức tạp
+     ✗ "Phần mềm tự động gộp các file PDF"       ← solution, gạch khỏi tầng này
+     ✗ "Bot Telegram/Zalo tự động đòi nợ task"   ← solution, gạch khỏi tầng này
+     ✗ "Tool AI cào dữ liệu bình luận Shopee"    ← solution, gạch khỏi tầng này
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
