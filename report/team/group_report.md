@@ -35,10 +35,10 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A — Báo cáo / tổng hợp |2, 8, 12  | Gom thông tin nhiều nguồn rồi chuẩn hóa/viết lại: Mất thời gian đọc, đối chiếu và nhặt nhạnh dữ liệu từ nhiều nguồn khác nhau (4-5 file lab, 10-15 slide bài giảng, nhiều bản JD việc làm) thành cấu trúc gọn gàng để dễ học tập/ra quyết định. |
-| B — Tìm kiếm | 3, 4 | Tìm đúng thông tin trong nhiều nguồn rời rạc: Lội tìm lại các quyết định cũ, tin nhắn dặn dò hoặc deadline bị trôi lộn xộn trong các nhóm chat, Zalo, Canvas. |
-| C — Theo dõi việc & Tiến độ |1, 5, 7  | Theo dõi action item, nhắc việc & tiến độ: Sau cuộc họp hoặc khi sync nhóm, việc thu thập thông tin tiến độ bị rời rạc, mất thời gian chờ đợi, cần chốt danh sách để không bỏ sót hoặc làm trùng việc. |
-| D — Phân tích, chẩn đoán & lọc nhiễu | 6, 9, 10, 11  | Suy luận lỗi và trích xuất ý nghĩa sâu: Vượt qua mức văn bản thuần túy, cần AI phân tích dữ liệu phức tạp (nhận diện ảnh trò chơi, lọc nick ảo seeding, chẩn đoán nguyên nhân câu sai) để tìm ra điểm lỗi và đưa ra thông tin chính xác. |
+| A — Báo cáo và quản lí tiến độ | Báo cáo tiến độ (#1, #5), Tạo To-do list sau họp (#7) | Gom và đối chiếu thông tin từ nhiều người để chốt tình hình hoặc phân công việc. |
+| B — Trích xuất & Tổng hợp tài liệu | Xác định yêu cầu lab (#2), Tổng hợp slide ôn thi (#8), Đối chiếu JD (#12) | Đọc nhiều tài liệu dài (slide, JD, rubric) để rút ra tiêu chuẩn hoặc ý chính. |
+| C — Tìm kiếm & Phân tích hội thoại |Tìm quyết định cũ (#3), Gom deadline Zalo (#4), Lọc review Shopee (#9)  | Lội tìm thông tin, quyết định hoặc đánh giá bị trôi trên các nền tảng chat/TMĐT. |
+| D — Trợ lý hình ảnh (Computer Vision) | Giải game xếp gạch (#6, #10), Chẩn đoán lỗi test AI (#11) | Nhận diện ảnh chụp để phát hiện lỗi sai hoặc xác định lỗ hổng kiến thức. |
 
 
 ### 2.3. Opportunity Solution Tree rút gọn
@@ -46,12 +46,12 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Tối ưu hóa thời gian xử lý thông tin, điều phối công việc và ra quyết định trong học tập/làm việc
-├── Opportunity A: Việc đọc, đối chiếu và chuẩn hóa thông tin từ nhiều tài liệu/nguồn dài tốn quá nhiều công sức
-├── Opportunity B: Các quyết định, tin nhắn dặn dò quan trọng dễ bị trôi và rất mất thời gian để lục tìm lại
-├── Opportunity C: Việc chốt danh sách phân công và thu thập tiến độ nhóm sau các buổi họp bị rời rạc, dễ sót việc
-└── Opportunity D: Khó khăn trong việc tự chẩn đoán lỗi sai và lọc nhiễu (thông tin giả/rác) từ dữ liệu phức tạp
-```
+OUTCOME: Giảm thời gian trưởng nhóm dành cho việc viết To-do list sau họp.
+├── Opportunity: Ghi chép lúc họp bị lộn xộn, viết tắt.
+├── Opportunity: Nhớ lại và đối chiếu để không sót việc tốn thời gian.
+└── Opportunity: Phải tự format lại văn bản cho chỉn chu trước khi gửi group.
+     ✗ "AI ghi âm tự động nhảy vào cuộc gọi"  ← solution, gạch khỏi tầng này
+     ✗ "Bot tự giao task trên Trello/Notion"  ← solution, gạch khỏi tầng này```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 -
@@ -63,15 +63,15 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+|Tạo To-do list (#7) |5 |5 |4 |5 |5 |5 |5 |34 |
+|Tổng hợp slide (#8) |4 |4 |5 |4 |4 |4 |5 |30 |
+|Gom deadline Zalo (#4) |4 |4 |5 |4 |2 |4 |5 |28 |
 
-**Candidate được chọn:**
+**Candidate được chọn:**Tạo To-do list sau họp (#7).
 
-**Vì sao chọn:**
+**Vì sao chọn:** Giải quyết nỗi đau thật, tiết kiệm ngay 15–20 phút/lần gõ lại nháp và nhớ ý bị sót, khả thi về công nghệ.
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao loại các candidate còn lại:**"Gom deadline Zalo" bị vướng rủi ro Feasibility do Zalo chặn API riêng tư rất chặt, sinh viên khó làm bot đọc tự động. "Tổng hợp slide ôn thi" rủi ro AI tóm tắt làm mất các kiến thức nâng cao ra thi (như Phúc phản biện). Nhóm chốt bài #7 vì có baseline đo lường bằng phút rõ ràng và dễ thực thi trong lab.
 
 **Xử lý bất đồng (nếu có):**
 
