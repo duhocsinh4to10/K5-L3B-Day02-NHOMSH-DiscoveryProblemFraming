@@ -10,7 +10,7 @@
 - MSSV: 202603922
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: NHOMSH
-- Link repo nhóm:
+- Link repo nhóm:https://github.com/duhocsinh4to10/K5-L3B-Day02-NHOMSH-DiscoveryProblemFraming
 
 ---
 
