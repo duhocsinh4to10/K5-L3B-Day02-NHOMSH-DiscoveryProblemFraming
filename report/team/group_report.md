@@ -51,13 +51,12 @@ OUTCOME: Tối ưu hóa thời gian xử lý thông tin, điều phối công vi
 ├── Opportunity B: Các quyết định, tin nhắn dặn dò quan trọng dễ bị trôi và rất mất thời gian để lục tìm lại
 ├── Opportunity C: Việc chốt danh sách phân công và thu thập tiến độ nhóm sau các buổi họp bị rời rạc, dễ sót việc
 └── Opportunity D: Khó khăn trong việc tự chẩn đoán lỗi sai và lọc nhiễu (thông tin giả/rác) từ dữ liệu phức tạp
-     ✗ "Phần mềm tự động gộp các file PDF"       ← solution, gạch khỏi tầng này
-     ✗ "Bot Telegram/Zalo tự động đòi nợ task"   ← solution, gạch khỏi tầng này
-     ✗ "Tool AI cào dữ liệu bình luận Shopee"    ← solution, gạch khỏi tầng này
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
-
+     ✗ "Phần mềm tự động gộp các file PDF"       ← solution, gạch khỏi tầng này
+     ✗ "Bot Telegram/Zalo tự động đòi nợ task"   ← solution, gạch khỏi tầng này
+     ✗ "Tool AI cào dữ liệu bình luận Shopee"    ← solution, gạch khỏi tầng này
 -
 
 ### 2.4. Chấm điểm shortlist (1–5)
