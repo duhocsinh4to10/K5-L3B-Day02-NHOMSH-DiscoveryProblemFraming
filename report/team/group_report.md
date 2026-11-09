@@ -35,9 +35,9 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A - Giao tiếp & Điều phối công việc nhóm |1, 3, 5, 7 |Pattern: Giải quyết nỗi đau trong làm việc tập thể. Các thành viên mất nhiều thời gian chờ đợi, lội lướt tin nhắn để chốt tiến độ, phân chia task hoặc tìm lại các quyết định đã thống nhất. Vấn đề gốc thường nằm ở sự phân mảnh của các kênh chat (Zalo/Messenger) và thiếu một "Single source of truth" (Nguồn dữ liệu chuẩn duy nhất). |
+| B - Tổng hợp & Chuẩn hóa thông tin phân mảnh  |2, 4, 8, 12 |Pattern: Người dùng bị quá tải vì phải đối chiếu, nhặt nhạnh dữ liệu từ nhiều file, nhiều nguồn khác nhau (4-5 file lab, slide bài giảng, tin nhắn đa nền tảng, nhiều bản JD việc làm). Nhu cầu cốt lõi: Cần một bộ lọc trích xuất thông tin rác thành cấu trúc gọn gàng (To-do list, Notion, Bảng so sánh) để theo dõi và ra quyết định nhanh hơn. |
+| C - Phân tích, suy luận & Chẩn đoán (Rủi ro kỹ thuật cao) |6, 9, 10, 11 |Pattern: Vượt qua mức tổng hợp văn bản thuần túy, nhóm này đòi hỏi AI phải có khả năng suy luận logic sâu (đoán lỗ hổng kiến thức, phân biệt nick ảo) hoặc khả năng thị giác máy tính (nhận diện hình khối trò chơi). Đặc điểm: Đầu ra khó đo lường độ chính xác (Success Metric), rủi ro sai sót (Hallucination) hoặc phụ thuộc vào chất lượng ảnh/đầu vào rất cao (High Feasibility Risk). |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
