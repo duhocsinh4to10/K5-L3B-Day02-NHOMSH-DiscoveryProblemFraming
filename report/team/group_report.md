@@ -1,4 +1,4 @@
-# Báo cáo nhóm — Day 02 Discovery & Problem Framing
+﻿# Báo cáo nhóm — Day 02 Discovery & Problem Framing
 
 > Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
 > Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
@@ -133,36 +133,57 @@ Tổng hợp:
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
+HIỆN TẠI — 5 bước, khoảng 30–35 phút/buổi họp, 5/5 bước thủ công
 
+[1 Ghi nháp trong cuộc họp: 45–60' (song song họp)] 
+→ [2 Đọc lại và giải mã chữ nháp/viết tắt: 5–7']
+→ [3 Dịch nháp thành To-do list chỉn chu: 10–12'] ← BOTTLENECK 1
+→ [4 Nhớ lại & rà soát xem có sót việc/người: 8–10'] ← BOTTLENECK 2
+→ [5 Format và copy gửi vào group chat (Zalo/Messenger): 3–5']
+
+BOTTLENECK CHÍNH: Bước 3 & 4 (mất 18–22 phút) — Người ghi chép vừa phải vật lộn dịch chữ viết tắt, vừa phải căng não nhớ lại diễn biến cuộc họp để không bỏ sót đầu việc hoặc gán nhầm người phụ trách.
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Trưởng nhóm / Thư ký | Diễn biến thảo luận, ý kiến thành viên | Bản ghi chú nháp (sổ tay, app Notes, chat nháp) | 45–60 phút (diễn ra song song khi họp) | Chữ viết nhanh, nhiều từ viết tắt, không có cấu trúc |
+| 2 | Trưởng nhóm / Thư ký | Bản ghi chú nháp thô | Danh sách ý đã đọc hiểu lại | 5–7 phút / mỗi buổi họp | Dễ quên nếu để sau 1–2 ngày mới đọc lại |
+| 3 | Trưởng nhóm / Thư ký | Các ý đã làm rõ từ ghi chú | Bản nháp việc cần làm (task, người làm, deadline) | 10–12 phút / mỗi buổi họp | **Bottleneck 1**: Phải tự diễn đạt lại thành câu hoàn chỉnh |
+| 4 | Trưởng nhóm / Thư ký | Bản nháp việc + trí nhớ cá nhân | Danh sách việc đã đối chiếu, bổ sung | 8–10 phút / mỗi buổi họp | **Bottleneck 2**: Rà soát xem có bỏ sót việc hay gán nhầm ai không |
+| 5 | Trưởng nhóm / Thư ký | Danh sách việc hoàn chỉnh | Tin nhắn tổng hợp gửi group (Zalo/Messenger) | 3–5 phút / mỗi buổi họp | Format icon, tag tên từng thành viên |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Bước 3 và Bước 4 tiêu tốn từ 18–22 phút (chiếm hơn 60% thời gian xử lý hậu kỳ sau họp). Nguyên nhân là ghi chú cuộc họp thường phân mảnh, viết vội, người ghi chép phải dùng trí nhớ để khôi phục bối cảnh và định dạng lại thành to-do list chỉn chu.
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
+TƯƠNG LAI — 4 bước, khoảng 8–10 phút/buổi họp, 2/4 bước thủ công
 
+[1 Nhập ghi chú nháp / transcript họp vào form/bot: 1']     ← CON NGƯỜI (hoặc Rule ghi nhận)
+→ [2 AI trích xuất task, phân loại & gán người: 1']           ← AI (LLM qua Workflow định sẵn)
+→ [3 Trưởng nhóm/Thư ký rà soát, chỉnh sửa & xác nhận: 5–7']  ← CON NGƯỜI (HITL - Human In The Loop)
+→ [4 Rule tự động format & gửi thông báo group chat: 1']     ← RULE (Webhook/Script gửi Zalo/Slack)
+
+BOUNDARY:
+- AI KHÔNG được tự ý gửi to-do list vào group chat khi chưa có xác nhận của con người.
+- AI KHÔNG tự bịa deadline hoặc gán người phụ trách nếu trong ghi chú không đề cập rõ ràng (phải gắn cờ `[Cần làm rõ]` để con người điền).
+- AI KHÔNG tự tạo các task mang tính cam kết nguồn lực lớn mà nhóm chưa chốt.
+
+PHƯƠNG ÁN QUAY VỀ (FALLBACK):
+- Khi AI phân tích sai lệch bối cảnh, bỏ sót quá nhiều hoặc hệ thống lỗi: Người ghi chép bấm nút "Bỏ qua AI", copy ghi chú nháp vào template Markdown/checklist thủ công có sẵn để gửi cho nhóm như quy trình cũ.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 bước | 4 bước | Gộp bước dịch nháp, định dạng và rà soát thành AI nháp + Người duyệt |
+| Tổng thời gian | 30–35 phút | 8–10 phút | Giảm ~70% thời gian xử lý sau họp |
+| Số bước thủ công | 5/5 bước | 2/4 bước | Con người chỉ làm khâu: Nạp ghi chú (1') và Duyệt/sửa (5–7') |
+| Bottleneck chính | Tự dịch nháp & nhớ lại ý sót (18–22') | Rà soát và xác nhận bản nháp AI (5–7') | Điểm nghẽn chuyển sang khâu kiểm soát chất lượng (HITL) có kiểm soát |
+| Rủi ro mới phát sinh | Quên việc, sót việc, cãi vã vì phân công không rõ | 1. AI ảo giác (bịa thêm task hoặc gán nhầm người).<br>2. Ảo tưởng tin tưởng (người duyệt bấm gửi ngay mà không đọc kỹ) | Xử lý bằng Boundary nghiêm ngặt, gắn cờ `[Chưa rõ]` và bắt buộc check xác nhận trước khi gửi |
 
 ---
 
@@ -170,18 +191,19 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Trưởng nhóm hoặc thành viên phụ trách ghi chép (thư ký) trong các nhóm làm bài tập/dự án học tập |
+| **Quy trình** | Sau khi kết thúc buổi họp nhóm: Đọc lại ghi chú viết vội/viết tắt → Dịch ghi chú thành danh sách việc cần làm (To-do list) → Đối chiếu trí nhớ để không sót việc → Chỉnh sửa định dạng (bullet, tag tên, deadline) → Gửi vào group chat chung |
+| **Bottleneck** | Bước dịch từ ghi chú thô/viết tắt thành to-do list chỉn chu và nhớ lại xem có sót ý/nhầm người không (mất 18–22 phút/lần họp) |
+| **Impact** | Tốn 30–35 phút sau mỗi buổi họp của người ghi chép; nguy cơ sót đầu việc hoặc phân công mơ hồ dẫn đến đùn đẩy trách nhiệm, trễ hạn đồ án và xích mích nội bộ nhóm |
+| **Success Metric** (baseline → target, cách đo) | - **Baseline**: Mất trung bình 20 phút cho khâu soạn thảo & rà soát việc (đo theo pitch #7 và thử nghiệm cá nhân).<br>- **Target**: Giảm xuống dưới 7 phút cho khâu này.<br>- **Chất lượng**: 100% các task đã chốt trong cuộc họp được phản ánh đúng người, đúng hạn; tỷ lệ khiếu nại/hỏi lại của thành viên về task giảm từ ~2–3 lần/buổi xuống 0.<br>- **Cách đo**: Bấm giờ thực tế từ lúc mở ghi chú đến khi bấm gửi to-do list trong 3 buổi họp liên tiếp; đếm số phản hồi đính chính trong group chat. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | - **AI KHÔNG ĐƯỢC**: Tự động gửi thẳng thông báo vào nhóm chat; không tự suy đoán người phụ trách hoặc tự chốt deadline nếu thông tin trong ghi chú bị thiếu hoặc mập mờ.<br>- **HITL (Human-in-the-loop)**: Bắt buộc trưởng nhóm/thư ký phải đọc lại bản nháp to-do list do AI sinh ra, bổ sung/sửa đổi các điểm gắn cờ nghi vấn trước khi nhấn lệnh gửi. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
-
----
+- **Phản biện 1 (Nguyễn Tuấn Quang (nhóm khác))**: *"Nếu trong cuộc họp mọi người tranh luận gay gắt, nói chèn lên nhau hoặc ghi chú quá sơ sài thì AI có thể trích xuất đúng được không, hay lại trích ra những ý nhóm vừa bác bỏ?"*
+  - **Nhóm đồng ý**: Đây là rủi ro lớn của việc phụ thuộc hoàn toàn vào AI. Nhóm đưa giải pháp vào Boundary: AI chỉ đóng vai trò Draft generator từ ghi chú có cấu trúc tối thiểu, các trường không chắc chắn phải để nhãn `[Cần làm rõ]` để thư ký duyệt, không dùng AI dạng Agent tự động hoàn toàn.
+- **Phản biện 2 (AI Reviewer)**: *"Success Metric ban đầu chỉ chú trọng vào thời gian (tốc độ) mà chưa đo lường độ chính xác (accuracy) của danh sách công việc. Nhanh hơn nhưng gán nhầm người thì tai hại hơn."*
+  - **Nhóm đồng ý**: Đã bổ sung tiêu chí chất lượng vào Success Metric: tỷ lệ phản ánh đúng 100% các việc đã chốt và số lần thành viên phải chat hỏi lại/khiếu nại về task giảm về 0.
 
 ## 6. Mức can thiệp AI (CP6)
 
@@ -240,7 +262,9 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| **Success Metric** | Giảm từ ~20 phút xuống dưới 7 phút | Giảm thời gian xuống dưới 7 phút, kèm tiêu chí 100% việc chốt đúng người/hạn và 0 khiếu nại | Đo lường cả tốc độ lẫn chất lượng/độ tin cậy của danh sách công việc |
+| **AI intervention point** | Chưa chỉ định cụ thể vị trí can thiệp trong bảng v0 | Xác định can thiệp tại Bước 2 (Chuyển ghi chú thô/viết tắt thành bản nháp việc có cấu trúc) | Làm rõ ranh giới giữa phần AI làm và khâu con người duyệt theo kiến trúc Workflow |
+| **Mức chọn** | Chưa phân loại mức | Chọn Workflow | No AI và Rule không xử lý được ngôn ngữ tự nhiên viết tắt; Agent lại thừa phức tạp và rủi ro |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
