@@ -187,38 +187,38 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: Độ mơ hồ cao × độ phức tạp thấp.
 
-Vì sao:
+Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần diễn giải nằm ở một bước cố định: chuyển ghi chú thành bản nháp danh sách việc để người ghi chép kiểm tra.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Ghi việc đã chốt vào một mẫu chung ngay trong cuộc họp. | Người ghi chép theo kịp và ghi đủ việc. | Có thể bỏ sót khi nhiều người cùng nói. |  |
+| **Rule** | Định dạng các dòng ghi việc theo một mẫu cố định. | Mỗi dòng đã ghi rõ một việc. | Có thể định dạng đúng nhưng giữ nguyên ý viết tắt khó hiểu. |  |
+| **Workflow** | Từ ghi chú, AI soạn bản nháp. Người ghi chép đối chiếu, sửa và gửi nhóm. | Có thể xác định việc đã chốt từ ghi chú và người ghi chép duyệt được bản nháp. | AI có thể bỏ sót việc hoặc hiểu sai ghi chú. | Đề xuất |
+| **Agent** | Cho AI tự chọn bước tiếp theo, kể cả giao việc trên công cụ quản lý. | Cần tự xử lý cả việc phân công sau cuộc họp. | Có thể giao việc khi nhóm chưa thống nhất. |  |
 
-**Mức chọn:**
+**Mức chọn:** Workflow (đề xuất).
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn:** Mẫu chung và quy tắc định dạng giúp trình bày danh sách. Với ghi chú viết tắt, người ghi chép vẫn phải tự đọc và viết lại từng việc. Workflow hỗ trợ đúng bước này.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Bản nháp liệt kê các việc đã chốt thể hiện trong ghi chú. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Trưởng nhóm hoặc người ghi chép xác nhận việc nào đã chốt và sửa chỗ diễn giải sai. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Người phụ trách gửi danh sách đã duyệt vào nhóm. |
+| **Outcome** — đo kết quả bằng gì? | Thời gian soạn và kiểm tra danh sách sau mỗi buổi họp. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Ghi chú nháp của buổi họp. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Đề xuất đối chiếu bản nháp với bản người ghi chép đã sửa trước khi gửi. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Đề xuất hỗ trợ người ghi chép soạn bản nháp. Bằng chứng:
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: Bỏ sót là lỗi cần ưu tiên kiểm tra vì candidate #7 nêu mục tiêu tránh quên việc. Người ghi chép đối chiếu danh sách với ghi chú trước khi gửi.
 
 ---
 
@@ -226,15 +226,15 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Trưởng nhóm hoặc người phụ trách ghi chép cuộc họp. |
+| **Quy trình** | Ghi nháp khi họp → viết lại các việc đã chốt → rà soát xem còn sót việc → gửi danh sách vào nhóm. |
+| **Bottleneck** | Bước 3 và 4 theo pitch #7: viết lại ghi chú và nhớ lại các ý có thể bị sót, khoảng 15–20 phút/lần theo ước tính trong pitch. |
+| **Impact** | Trưởng nhóm mất thời gian soạn lại danh sách. Việc bị bỏ sót có thể khiến thành viên quên thực hiện hoặc tranh cãi về phân công. |
+| **Success Metric** (baseline → target, cách đo) | Khoảng 15–20 phút/lần (ước tính ở pitch #7) → <br>Cách đo đề xuất: bấm giờ từ lúc bắt đầu soạn sau họp đến lúc danh sách đã rà soát, sẵn sàng gửi. |
+| **Boundary** | AI chỉ soạn nháp từ ghi chú. Người ghi chép xác nhận các điểm chưa rõ và duyệt trước khi gửi. |
+| **AI intervention point** | Chuyển ghi chú viết tắt, rời rạc thành bản nháp danh sách việc đã chốt. |
+| **Mức chọn** | Workflow (đề xuất). |
+| **Rủi ro & người kiểm tra** | AI có thể bỏ sót việc hoặc ghi một ý đang thảo luận thành việc đã chốt. Trưởng nhóm hoặc người ghi chép kiểm tra trước khi gửi. |
 
 **Thay đổi so với v0 và lý do:**
 
@@ -246,9 +246,9 @@ Vì sao:
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Đủ việc đã chốt | Mỗi việc đã chốt trong ghi chú đều có trong danh sách. | Thiếu việc đã chốt có trong ghi chú. |
+| 2 | Đúng nội dung phân công | Nội dung và người phụ trách khớp với ghi chú. Chỗ chưa rõ được để trống hoặc đánh dấu để hỏi lại. | Thêm việc, tự gán người hoặc đổi ý đang thảo luận thành việc đã chốt. |
+| 3 | Dễ đối chiếu | Mỗi việc được viết thành một mục riêng, người ghi chép có thể đối chiếu với ý tương ứng trong ghi chú. | Gộp các việc khác nhau khiến người duyệt khó xác định từng việc. |
 
 ---
 
