@@ -21,9 +21,9 @@
 | 1 | | | | | |
 | 2 | | | | | |
 | 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 4 |Nguyễn Tiến Đạt |Khi nhận tin nhắn deadline trên Zalo/Canvas, tôi muốn gom tự động vào Notion để không quên việc. | Sinh viên bận rộn|Lội tìm lại tin nhắn dặn dò bị trôi trong group chat (10-15 phút). |Zalo chặn API thì làm sao bot đọc tin nhắn tự động được? (Phúc/Tiệp hỏi) |
+| 5 |Nguyễn Tiến Đạt |Khi nhóm cập nhật tiến độ, tôi muốn biết mỗi người đã làm phần nào để phân công không bị trùng. |Người điều phối nhóm | Chờ đợi và thu thập phản hồi rời rạc từ từng người (25 phút).|Lỗi do thiếu tool hay do kỷ luật nhóm? Dùng bảng Excel chung đã đủ giải quyết chưa? (Đạt/Tiệp hỏi) |
+| 6 |Nguyễn Tiến Đạt | Khi dán ảnh bàn cờ vào công cụ, tôi muốn hệ thống nhận đúng hình dáng khối gạch để khỏi mất công sửa tay.|Người dùng tool giải game |Tốn thời gian phát hiện và sửa lại các khối gạch bị AI đọc sai. | Nếu cho người dùng thao tác sửa tay 1 lần thì có nhanh và rẻ hơn việc làm AI nhận diện ảnh không? (Đạt/Phúc hỏi)|
 | 7 | Trần Xuân Lộc | Khi họp nhóm xong, tôi muốn có ngay danh sách chia việc (To-do list), để không ai quên việc hoặc cãi nhau | Trưởng nhóm hoặc người phụ trách ghi chép | Bước 3 & 4: Dịch từ chữ viết nháp thành văn bản chỉn chu và nhớ lại xem có ghi sót ý không (15–20 phút) | |
 | 8 | Trần Xuân Lộc | Khi gần thi cuối kỳ, tôi muốn gom các ý chính từ nhiều file slide bài giảng vào một nơi, để ôn thi nhanh hơn | Học sinh, Sinh viên các trường đại học | Bước 4: Đọc và chép tay/copy các ý chính từ 10–15 file bài giảng sang Word (120 phút) | |
 | 9 | Trần Xuân Lộc | Khi mua đồ đắt tiền trên mạng, tôi muốn lọc ra các đánh giá thật, để không bị lừa mua phải hàng dỏm | Người mua sắm online (Shopee, Lazada, TikTok) | Bước 2 & 4: Cuộn đọc hàng chục bình luận và đau đầu suy luận phân biệt nick ảo (15–20 phút) | |
