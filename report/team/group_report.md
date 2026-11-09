@@ -27,9 +27,9 @@
 | 7 | Trần Xuân Lộc | Khi họp nhóm xong, tôi muốn có ngay danh sách chia việc (To-do list), để không ai quên việc hoặc cãi nhau | Trưởng nhóm hoặc người phụ trách ghi chép | Bước 3 & 4: Dịch từ chữ viết nháp thành văn bản chỉn chu và nhớ lại xem có ghi sót ý không (15–20 phút) | |
 | 8 | Trần Xuân Lộc | Khi gần thi cuối kỳ, tôi muốn gom các ý chính từ nhiều file slide bài giảng vào một nơi, để ôn thi nhanh hơn | Học sinh, Sinh viên các trường đại học | Bước 4: Đọc và chép tay/copy các ý chính từ 10–15 file bài giảng sang Word (120 phút) | |
 | 9 | Trần Xuân Lộc | Khi mua đồ đắt tiền trên mạng, tôi muốn lọc ra các đánh giá thật, để không bị lừa mua phải hàng dỏm | Người mua sắm online (Shopee, Lazada, TikTok) | Bước 2 & 4: Cuộn đọc hàng chục bình luận và đau đầu suy luận phân biệt nick ảo (15–20 phút) | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 10 | 	Nguyễn Quang Tiệp | Khi dán ảnh một lượt xếp gạch, tôi muốn hệ thống nhận dạng chính xác bàn cờ và 3 khối, để không phải sửa thủ công hoặc nhận lời giải sai. | Người chơi sử dụng công cụ giải xếp gạch bằng ảnh | Kiểm tra và sửa các khối nhận dạng sai (ước tính 3 phút/lượt có lỗi). | |
+| 11 | 	Nguyễn Quang Tiệp | Khi hoàn thành bài kiểm tra AI có nhiều câu sai, tôi muốn xác định nguyên nhân và lỗ hổng kiến thức, để ôn tập đúng trọng tâm. | Học viên AI/ML mới bắt đầu | Phân tích nguyên nhân sai và xác định kiến thức thiếu (ước tính 15 phút/bài). | |
+| 12 | 	Nguyễn Quang Tiệp | Khi tìm kiếm việc làm, tôi muốn đối chiếu yêu cầu tuyển dụng với năng lực bản thân, để lựa chọn vị trí phù hợp và xác định kỹ năng cần bổ sung. | Sinh viên CNTT mới tốt nghiệp hoặc người chuyển hướng nghề nghiệp | Chuẩn hóa yêu cầu từ nhiều JD để so sánh (ước tính 25 phút/3 JD). | |
 
 ### 2.2. Cluster
 
