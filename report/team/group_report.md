@@ -248,31 +248,34 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Trưởng nhóm hoặc người phụ trách ghi chép cuộc họp. |
-| **Quy trình** | Ghi nháp khi họp → viết lại các việc đã chốt → rà soát xem còn sót việc → gửi danh sách vào nhóm. |
-| **Bottleneck** | Bước 3 và 4 theo pitch #7: viết lại ghi chú và nhớ lại các ý có thể bị sót, khoảng 15–20 phút/lần theo ước tính trong pitch. |
-| **Impact** | Trưởng nhóm mất thời gian soạn lại danh sách. Việc bị bỏ sót có thể khiến thành viên quên thực hiện hoặc tranh cãi về phân công. |
-| **Success Metric** (baseline → target, cách đo) | Khoảng 15–20 phút/lần (ước tính ở pitch #7) → <br>Cách đo đề xuất: bấm giờ từ lúc bắt đầu soạn sau họp đến lúc danh sách đã rà soát, sẵn sàng gửi. |
-| **Boundary** | AI chỉ soạn nháp từ ghi chú. Người ghi chép xác nhận các điểm chưa rõ và duyệt trước khi gửi. |
-| **AI intervention point** | Chuyển ghi chú viết tắt, rời rạc thành bản nháp danh sách việc đã chốt. |
-| **Mức chọn** | Workflow (đề xuất). |
-| **Rủi ro & người kiểm tra** | AI có thể bỏ sót việc hoặc ghi một ý đang thảo luận thành việc đã chốt. Trưởng nhóm hoặc người ghi chép kiểm tra trước khi gửi. |
+| **Actor** | Trưởng nhóm hoặc thành viên phụ trách ghi chép trong nhóm làm bài tập/dự án học tập |
+| **Quy trình** | Ghi chú trong cuộc họp → đưa ghi chú vào Workflow → AI tạo bản nháp task/owner/deadline kèm nguồn → người ghi chép đối chiếu, sửa và xác nhận → rule định dạng/gửi |
+| **Bottleneck** | Chuyển ghi chú thô thành To-do list và nhớ lại việc/người/deadline bị thiếu, mất 18–22 phút/lần họp |
+| **Impact** | Tổng thời gian xử lý sau họp khoảng 30–35 phút; bỏ sót hoặc gán sai việc gây hỏi lại, trễ hạn và tranh cãi về phân công |
+| **Success Metric** (baseline → target, cách đo) | **Baseline:** 18–22 phút cho khâu soạn/soát và 2–3 lượt hỏi lại mỗi buổi. **Target pilot:** thời gian soạn/soát trung vị dưới 7 phút, tổng hậu kỳ dưới 10 phút; 100% task đã chốt có trong bản cuối; 0 task, owner hoặc deadline bị bịa/gán sai; 0 đính chính sau khi gửi trong 3 buổi liên tiếp. **Cách đo:** bấm giờ, dùng danh sách chuẩn do hai thành viên đối chiếu và kiểm tra lịch sử chat |
+| **Boundary** | AI không tự gửi, không tự tạo task, người hoặc deadline khi input không rõ, không biến ý đang thảo luận/đã bác bỏ thành việc đã chốt. Mục thiếu dữ liệu phải có nguồn và cờ `[Cần làm rõ]`; người ghi chép duyệt toàn bộ trước khi gửi |
+| **AI intervention point** | Bước 2 của quy trình tương lai: chuyển ghi chú/transcript thành bản nháp To-do list có cấu trúc và có thể đối chiếu nguồn |
+| **Mức chọn** | Workflow — AI làm một bước diễn giải, con người giữ judgment và quyền gửi |
+| **Rủi ro & người kiểm tra** | Rủi ro bỏ sót, hiểu nhầm hoặc bịa phân công; trưởng nhóm/thư ký là người kiểm tra chính, một thành viên khác đối chiếu mẫu trong giai đoạn pilot |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| **Success Metric** | Giảm từ ~20 phút xuống dưới 7 phút | Giảm thời gian xuống dưới 7 phút, kèm tiêu chí 100% việc chốt đúng người/hạn và 0 khiếu nại | Đo lường cả tốc độ lẫn chất lượng/độ tin cậy của danh sách công việc |
-| **AI intervention point** | Chưa chỉ định cụ thể vị trí can thiệp trong bảng v0 | Xác định can thiệp tại Bước 2 (Chuyển ghi chú thô/viết tắt thành bản nháp việc có cấu trúc) | Làm rõ ranh giới giữa phần AI làm và khâu con người duyệt theo kiến trúc Workflow |
-| **Mức chọn** | Chưa phân loại mức | Chọn Workflow | No AI và Rule không xử lý được ngôn ngữ tự nhiên viết tắt; Agent lại thừa phức tạp và rủi ro |
+| Quy trình | Quy trình thủ công sau họp | Thêm AI tạo bản nháp, HITL duyệt và rule gửi sau xác nhận | Làm rõ AI chen vào đúng bước bottleneck và không tự hành động |
+| Success Metric | Thời gian dưới 7 phút, đúng việc/người/hạn và 0 hỏi lại | Thêm tổng hậu kỳ dưới 10 phút, 0 nội dung bịa, cách đo trên 3 buổi và người đối chiếu | Metric phải đo cả tốc độ, độ đầy đủ và độ tin cậy |
+| Boundary | Không tự gửi hoặc tự suy đoán | Thêm yêu cầu đoạn nguồn, cờ `[Cần làm rõ]` và cấm biến ý bị bác bỏ thành task | Xử lý phản biện về ghi chú mơ hồ và tranh luận trong họp |
+| Mức can thiệp | Chưa phân loại | Workflow, không dùng Agent | Các bước đã định sẵn; chỉ một bước cần hiểu ngôn ngữ tự nhiên |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | Đủ việc đã chốt | Mỗi việc đã chốt trong ghi chú đều có trong danh sách. | Thiếu việc đã chốt có trong ghi chú. |
-| 2 | Đúng nội dung phân công | Nội dung và người phụ trách khớp với ghi chú. Chỗ chưa rõ được để trống hoặc đánh dấu để hỏi lại. | Thêm việc, tự gán người hoặc đổi ý đang thảo luận thành việc đã chốt. |
-| 3 | Dễ đối chiếu | Mỗi việc được viết thành một mục riêng, người ghi chép có thể đối chiếu với ý tương ứng trong ghi chú. | Gộp các việc khác nhau khiến người duyệt khó xác định từng việc. |
+| 1 | Đủ việc đã chốt | 100% task trong danh sách chuẩn xuất hiện trong bản nháp hoặc được gắn `[Cần làm rõ]` | Thiếu ít nhất một task đã chốt mà không cảnh báo |
+| 2 | Không bịa | Mọi task đều có đoạn nguồn trong input; không tự thêm cam kết | Có task không có căn cứ hoặc biến ý đã bác bỏ thành task |
+| 3 | Đúng người và deadline | Owner/deadline khớp input; thông tin thiếu được để trống và gắn cờ | Tự gán hoặc sửa owner/deadline không có nguồn |
+| 4 | Dễ đối chiếu | Mỗi task là một mục riêng gồm task, owner, deadline, nguồn và trạng thái | Gộp nhiều task, thiếu trường hoặc không truy được về input |
+| 5 | Dễ duyệt | Người ghi chép có thể hoàn tất rà soát trong dưới 7 phút | Phải viết lại hơn 30% số mục hoặc mất từ 7 phút trở lên |
 
 ---
 
@@ -282,24 +285,24 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Cao** | Hiện mới có pitch #7 và ước tính cá nhân; CP4 chưa có phỏng vấn/survey người ngoài nhóm để xác nhận tần suất, thời gian và mức sẵn sàng dùng |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Trung bình** | Cấu trúc task/owner/deadline quen thuộc, nhưng người dùng có thể bỏ qua nguồn hoặc quá tin bản nháp; cần UI cờ lỗi và xác nhận từng mục |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **Trung bình** | LLM có thể trích xuất văn bản, nhưng ghi chú viết tắt và ý đang tranh luận làm chất lượng input không ổn định; chưa có bộ test chuẩn |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Trung bình** | Pilot chi phí thấp nhưng ghi chú/transcript có thể chứa thông tin cá nhân; cần sự đồng ý của thành viên, phạm vi lưu dữ liệu và người chịu trách nhiệm vận hành |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** **Not Yet**.
 
-**Lý do:**
+**Lý do:** Workflow phù hợp về mặt thiết kế, nhưng Value risk đang ở mức Cao vì chưa có kiểm chứng CP4 với người ngoài nhóm và baseline chủ yếu là ước tính. Feasibility và Usability cũng cần một bộ test nhỏ để chứng minh AI không bỏ sót hoặc bịa phân công. Đây là các rủi ro có thể kiểm chứng nhanh nên chưa cần No-Go.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Nếu Go — pilot nhỏ nhất:** Sau khi đạt điều kiện kiểm chứng, thử với một nhóm học tập trong 3 buổi họp; chỉ nhập ghi chú văn bản, không tự thu âm, không tự gửi và luôn có trưởng nhóm/thư ký duyệt.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+**Nếu Not Yet — cần kiểm chứng gì trước:** (1) Phỏng vấn 2–3 trưởng nhóm/thư ký ngoài nhóm về lần họp gần nhất; (2) đo baseline thật của ít nhất 3 buổi họp; (3) tạo bộ test từ 3 ghi chú đã ẩn danh và danh sách task chuẩn do hai người đối chiếu; (4) chỉ chuyển sang Go nếu ít nhất 2/3 người xác nhận pain lặp lại, baseline trung vị từ 15 phút trở lên và Workflow đạt đủ 5 eval trên 3 mẫu.
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Nếu No-Go — nên làm gì thay AI:** Dùng template Task / Owner / Deadline, chốt từng việc ngay trong cuộc họp và checklist rà soát trước khi gửi.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng** (nếu sau … mà … thì quay về …): Nếu sau **2 tuần hoặc tối thiểu 5 buổi họp** mà thời gian hậu kỳ trung vị vẫn trên 10 phút, có từ 2/5 bản nháp trở lên bỏ sót ít nhất một task đã chốt, người duyệt phải viết lại trên 30% số mục, hoặc có bất kỳ owner/deadline bịa nào được gửi, nhóm dừng Workflow và quay về template có cấu trúc + checklist thủ công.
 
 ---
 
