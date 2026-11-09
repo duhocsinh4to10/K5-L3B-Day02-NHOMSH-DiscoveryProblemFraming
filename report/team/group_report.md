@@ -66,6 +66,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | | | | | | | | | |
 | | | | | | | | | |
 | | | | | | | | | |
+
 **Candidate được chọn:**
 
 **Vì sao chọn:**
