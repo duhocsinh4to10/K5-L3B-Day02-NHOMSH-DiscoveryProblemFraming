@@ -319,11 +319,11 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 
 **-Hướng tiếp theo (Next steps):**
     
-    Thực thi kế hoạch kiểm chứng CP4: Tiến hành phỏng vấn sâu ít nhất 3 trưởng nhóm đồ án ngoài lớp (theo phương pháp The Mom Test) và làm khảo sát diện rộng (khoảng 15 sinh viên) để xác thực rủi ro Value.
+ - Thực thi kế hoạch kiểm chứng CP4: Tiến hành phỏng vấn sâu ít nhất 3 trưởng nhóm đồ án ngoài lớp (theo phương pháp The Mom Test) và làm khảo sát diện rộng (khoảng 15 sinh viên) để xác thực rủi ro Value.
     
-    Đánh giá lại Quyết định (Go / No-Go): Sau khi có dữ liệu thật, nếu >60% xác nhận mất trên 15 phút để làm to-do list, nhóm sẽ chuyển trạng thái từ Not Yet sang Go (Pilot).
+ - Đánh giá lại Quyết định (Go / No-Go): Sau khi có dữ liệu thật, nếu >60% xác nhận mất trên 15 phút để làm to-do list, nhóm sẽ chuyển trạng thái từ Not Yet sang Go (Pilot).
   
-    Xây dựng Prototype & Bộ test: Thu thập 3 mẫu ghi chú nháp (đã ẩn danh) từ các buổi họp cũ làm dữ liệu test. Tối ưu hóa Custom Prompt trên ChatGPT/Claude sao cho AI tự động gắn cờ [Cần làm rõ] vào những task thiếu thông tin, giúp người duyệt rà soát nhanh hơn.
+ - Xây dựng Prototype & Bộ test: Thu thập 3 mẫu ghi chú nháp (đã ẩn danh) từ các buổi họp cũ làm dữ liệu test. Tối ưu hóa Custom Prompt trên ChatGPT/Claude sao cho AI tự động gắn cờ [Cần làm rõ] vào những task thiếu thông tin, giúp người duyệt rà soát nhanh hơn.
     
 ## 10. Tài liệu tham khảo
 - Otter.ai Meeting Assistant (Tham khảo tính năng trích xuất Action Item tự động): https://otter.ai
