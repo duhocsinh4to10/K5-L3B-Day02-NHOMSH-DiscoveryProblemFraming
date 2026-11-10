@@ -68,24 +68,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Tôi học được rằng phải bắt đầu từ actor, quy trình, bottleneck và bằng chứng thay vì bắt đầu từ một tính năng AI. Một phương án No AI hoặc Rule vẫn cần được thử trước khi nâng lên Workflow; Agent chỉ phù hợp khi thật sự cần AI tự quyết bước tiếp theo. Tôi cũng hiểu metric không chỉ đo tốc độ mà phải đo độ đầy đủ, nội dung bịa và lỗi gán người/deadline. Boundary, bước con người kiểm tra và fallback là bắt buộc khi đầu vào có ghi chú mơ hồ. Cuối cùng, quyết định **Not Yet** là hợp lý khi giải pháp có vẻ khả thi nhưng bằng chứng Value chưa đủ mạnh.
 
 
-### HoVaTen-MSSV
-
-**Phần việc phụ trách:**
-
--
-
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
--
-
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
--
-
-**Điều mình học được từ phần nhóm:**
-
--
-
 ### Nguyễn Tiến Đạt-2A202603922
 
 **Phần việc phụ trách:**
@@ -109,23 +91,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Nhận ra sự khác biệt giữa "nỗi đau cá nhân" và "nỗi đau hệ thống". Việc tôi bị trôi tin nhắn là vấn đề của một người, nhưng việc cả nhóm cãi nhau vì chia việc không rõ ràng sau họp là nỗi đau ảnh hưởng đến tiến độ của tập thể.
 - Học cách lùi lại khi bị "solution-first". Thay vì cố ép công nghệ thu âm (Whisper/API) vào quán cafe ồn ào, nhóm đã chọn giải pháp an toàn hơn: AI xử lý phần ghi chú thô của con người.
 
-### HoVaTen-MSSV
+### TranXuanLoc-2A202603951
 
 **Phần việc phụ trách:**
 
--
+- Phụ trách chính CP5 (Quy trình trước/sau và Problem Statement v0).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Đưa ra ý tưởng Candidate #7 (Tạo To-do list sau họp) và bảo vệ thành công để làm bài toán chung.
+- Vẽ quy trình hiện tại (As-Is) và tương lai (To-Be). Xác định chính xác "Bottleneck" nằm ở bước nhớ lại ý sót và định dạng văn bản; gộp được các bước thủ công thành 1 bước duyệt nháp của AI. Soạn thảo Problem Statement v0.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- Quy trình Before/After ở mục 4 `group_report.md`.
+- Problem Statement v0 ở mục 5 `group_report.md`.
+- File cá nhân `2A202603951_TranXuanLoc.md`.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Một nỗi đau dù lớn (như việc bị trôi task Zalo) nhưng nếu vướng rào cản kỹ thuật không thể vượt qua (Zalo chặn API), thì PM phải biết từ bỏ để chọn trận chiến khác khả thi hơn (như bài toán To-do list).
+- Hiểu được sự nguy hiểm của "thiên kiến xác nhận". Việc mặc định nỗi đau mất 20 phút sau họp là hiển nhiên với mọi người trong khi chỉ dựa vào trải nghiệm cá nhân là một rủi ro, dẫn đến quyết định "Not Yet" dũng cảm của nhóm.
+
 ### HoVaTen-MSSV
 
 **Phần việc phụ trách:**
