@@ -37,23 +37,36 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### NguyenLuongPhuc-2A202603889
 
 **Phần việc phụ trách:**
 
--
+- Chuẩn bị và pitch 3 Problem Card cá nhân; phản biện candidate của các thành viên khác.
+- Tham gia gom cluster, xây Opportunity Solution Tree và chấm điểm shortlist để chọn candidate nhóm.
+- Hỗ trợ research giải pháp có sẵn, vẽ quy trình trước/sau, hoàn thiện Problem Statement v0/v1, lựa chọn mức can thiệp AI và đánh giá quyết định cuối.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Đưa ra 3 candidate: cập nhật tiến độ nhóm, xác định yêu cầu bài lab và tìm lại quyết định cũ; mỗi candidate có actor, bottleneck và số liệu thời gian.
+- Đặt câu hỏi phản biện về khả năng truy cập API Zalo, nguy cơ AI tóm tắt slide làm mất kiến thức quan trọng và khả năng phân biệt hổng kiến thức với lỗi đọc nhầm đề.
+- Tham gia phân loại 12 candidate, tách opportunity khỏi solution và so sánh ba candidate trong shortlist. Tôi đồng ý không chọn candidate cá nhân và ủng hộ “Tạo To-do list sau họp” vì bottleneck rõ, đo được và vừa sức lab.
+- Tham gia thu hẹp giải pháp từ AI tự ghi âm cuộc họp sang Workflow nhận ghi chú text thô, tạo bản nháp To-do list và bắt buộc con người duyệt.
+- Góp phần bổ sung metric chất lượng, boundary, HITL, fallback, 5 tiêu chí eval, ma trận 4 rủi ro và ngưỡng dừng; thống nhất quyết định **Not Yet** vì kiểm chứng Value hiện còn chủ yếu từ nội bộ nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `report/team/group_report.md` mục 2.1: ba candidate của Nguyễn Lương Phúc ở dòng #1–#3; các câu hỏi Phúc đặt cho candidate #4, #8 và #11.
+- `report/team/group_report.md` mục 2.2–2.4: cluster, cây OST, bảng chấm điểm và lý do chọn candidate #7.
+- `report/team/group_report.md` mục 3.1–3.3: assumption map và research Otter.ai/Fireflies.ai, Zoom AI Companion, pattern dùng prompt xử lý ghi chú text.
+- `report/team/group_report.md` mục 4–8: quy trình trước/sau, Problem Statement v0/v1, Workflow, AI Canvas, eval, bốn rủi ro và quyết định Not Yet.
+- `report/individual/2A202603889_NGUYENLUONGPHUC.md`: CP1, CP2, nhật ký tham gia nhóm và nhật ký dùng AI của cá nhân.
+- `report/assets/`: hiện chưa có file riêng do tôi tạo được ghi nhận.
+- Commit cá nhân: hiện chưa có commit đứng tên/tài khoản GitHub của tôi; cần `git add`, commit và push phần đóng góp bằng tài khoản của mình trước deadline.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Tôi học được rằng phải bắt đầu từ actor, quy trình, bottleneck và bằng chứng thay vì bắt đầu từ một tính năng AI. Một phương án No AI hoặc Rule vẫn cần được thử trước khi nâng lên Workflow; Agent chỉ phù hợp khi thật sự cần AI tự quyết bước tiếp theo. Tôi cũng hiểu metric không chỉ đo tốc độ mà phải đo độ đầy đủ, nội dung bịa và lỗi gán người/deadline. Boundary, bước con người kiểm tra và fallback là bắt buộc khi đầu vào có ghi chú mơ hồ. Cuối cùng, quyết định **Not Yet** là hợp lý khi giải pháp có vẻ khả thi nhưng bằng chứng Value chưa đủ mạnh.
+
 
 ### HoVaTen-MSSV
 
