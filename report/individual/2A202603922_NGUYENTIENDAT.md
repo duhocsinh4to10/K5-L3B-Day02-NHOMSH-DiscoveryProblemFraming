@@ -130,16 +130,19 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card |Trình bày candidate cá nhân về bài toán gom deadline từ tin nhắn Zalo/Canvas (Candidate #4). | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card |Trình bày ý tưởng "Gom deadline tự động từ Zalo/Canvas vào Notion" (Candidate số #4 trong bảng nhóm). |Ý tưởng lọt vào danh sách shortlist của nhóm và đứng thứ 3 chung cuộc (28 điểm). |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:- Hỏi Lương Phúc (Candidate #1): "Nhóm có quy định khung giờ nộp báo cáo cố định không, hay ai thích nhắn lúc nào thì nhắn?"
+
+
+- Hỏi Quang Tiệp (Candidate #12): "Tiêu chuẩn 'phù hợp' rất mơ hồ, làm sao AI đo lường được các yếu tố mềm...?"|Giúp nhóm loại bỏ các ý tưởng có yếu tố đánh giá quá mơ hồ, thiên cảm tính (như chấm JD) để chọn bài toán dễ đo lường bằng phút. |
+| Nhận phản biện | Câu hỏi tôi nhận được:Lương Phúc hỏi: "Zalo chặn API riêng tư rất chặt, làm cách nào để công cụ đọc được tin nhắn tự động?" | Tôi đã sửa gì:Nhận ra rủi ro kỹ thuật (Feasibility) quá cao, tôi đồng ý gác lại candidate của mình để dồn phiếu cho bài toán To-do list của Lộc. Đề xuất cá nhân tự dùng Bot Telegram thay vì làm tool tự động. |
+| Gom cluster / cây OST |Trực tiếp điều phối phiên hội tụ nhóm (CP3). Hỗ trợ Lộc phân loại 12 candidate thành 4 cluster và vẽ Opportunity Solution Tree (OST) cho bài toán To-do list sau họp. |Giúp nhóm loại bỏ các "solution đội lốt opportunity" (như ý tưởng AI tự nhảy vào cuộc gọi), hướng nhóm tập trung vào gốc rễ là việc ghi chép bị lộn xộn. |
+| Chọn candidate problem |Điều hành việc chấm điểm ma trận shortlist (thang 1-5 điểm). |Chốt chọn Candidate #7 (Tạo To-do list sau họp) với số điểm cao nhất (34 điểm) do có baseline đo được bằng phút và vừa sức lab. |
+| Kiểm chứng / research |Phụ trách chính CP4: Lập Assumption Map (5 giả định) và cùng nhóm thiết kế câu hỏi phỏng vấn. Hướng dẫn nhóm tìm các công cụ đối chiếu (Otter, Zoom AI, Custom Prompt). |Xác nhận nỗi đau mất 20 phút qua phỏng vấn là thật. Loại bỏ hướng đi dùng AI ghi âm trực tiếp vì tiếng ồn quán cafe, chuyển sang dùng Workflow (xử lý text). |
+| Quy trình nhóm |Hỗ trợ Lộc (người phụ trách chính) rà soát sơ đồ quy trình As-Is và To-Be. |Đảm bảo bước "Con người rà soát và xác nhận" (Human-in-the-loop) được đưa vào quy trình To-Be để kiểm soát lỗi của AI. |
+| Problem Statement |Cùng Lộc và Tiệp rà soát, góp ý các phiên bản PS v0 và v1, kiểm tra tính logic giữa Actor, Bottleneck và Metric. |Chốt được Success Metric thực tế: giảm thời gian soát lỗi xuống dưới 7 phút, tỷ lệ AI bịa task hoặc gán sai người phải là 0. |
+| Mức can thiệp AI |Phối hợp cùng Tiệp phân tích ma trận để chọn mức can thiệp và AI Canvas. |Đồng thuận chọn Workflow thay vì Agent để tránh rủi ro AI tự ý thay mặt trưởng nhóm giao việc lung tung lên các nền tảng. |
+| Quyết định |Hỗ trợ Phúc tổng hợp 4 rủi ro (Value, Usability, Feasibility, Viability) và thảo luận về ngưỡng dừng pilot (Stop criteria). |Cùng nhóm đưa ra quyết định dũng cảm là Not Yet, vì nhận thấy rủi ro Value còn cao do chưa khảo sát đủ data khách quan bên ngoài nhóm. |
 
 ---
 
@@ -147,12 +150,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan |Dùng ChatGPT để chuyển các gạch đầu dòng về nỗi đau thô (chạy xe nghe giảng, dò lịch) thành chuẩn Job Story. |Giúp cấu trúc câu chuẩn xác ("Khi... tôi muốn... để..."), làm rõ ràng Actor và Outcome. |AI hay tự động vẽ thêm các giải pháp viễn vông (ví dụ: gợi ý làm bot tự động làm bài tập hộ). |Bỏ qua các giải pháp AI tự động hóa hoàn toàn do vi phạm đạo đức, chỉ giữ lại mô tả nỗi đau cốt lõi để tự xử lý. |
+| CP2 Problem Card |Yêu cầu AI phản biện điểm yếu của ý tưởng Gom deadline từ Zalo/Canvas (Candidate #4). |Nhận diện xuất sắc rủi ro kỹ thuật: AI nhắc nhở rằng các nền tảng chat đóng (như Zalo) thường chặn API. |AI đề xuất giải pháp vượt rào cản là cài đặt phần mềm đọc màn hình (Screen Scraping) rất phức tạp. |Bác bỏ cách làm phức tạp. Đề xuất giải pháp Workaround đơn giản: người dùng tự forward tin nhắn vào một Bot Telegram trung gian. |
+| CP4 Research |Dùng AI phân tích danh sách tính năng của các đối thủ trên thị trường (Otter.ai, Fireflies.ai). |Nhanh chóng liệt kê được giới hạn của các công cụ này (kém tiếng Việt, dễ nhiễu âm thanh khi có nhiều tạp âm). |AI khẳng định các công cụ này vẫn có thể dùng tốt nếu mua micro xịn hoặc bộ lọc ồn. |Dùng nhận định cá nhân để bác bỏ: sinh viên họp ở quán cafe ồn ào không thể đầu tư micro xịn. Chốt phương án không dùng AI nghe âm thanh trực tiếp. |
+| CP5 Quy trình |Dùng AI để chuyển mô tả văn bản quy trình As-Is và To-Be thành code sơ đồ Mermaid hỗ trợ Lộc. |Tiết kiệm thời gian gõ cú pháp tạo sơ đồ trực quan. |AI gộp chung bước "AI sinh bản nháp" và "Gửi vào group" làm một bước tự động hóa. |Tách rõ làm 2 bước, bắt buộc chèn bước "Con người kiểm duyệt (HITL)" vào giữa để đảm bảo Boundary. |
+| CP5–6 Problem Statement |Nhờ AI rà soát xem PS v0 có bị thiếu Success Metric định lượng không. |Nhắc nhở việc phải có con số cụ thể cho thời gian và tỷ lệ. |Đề xuất metric "100% tự động hóa" quá phi thực tế. |Thiết lập lại metric: giữ con người duyệt (HITL), giảm thời gian từ 20p xuống dưới 7p. |
+| CP6 Mức can thiệp / quyết định |Dùng AI để đánh giá ma trận Mơ hồ/Phức tạp cho bài toán To-do list sau họp. |Nhận diện đúng bài toán có độ mơ hồ cao (do ngôn ngữ tự nhiên) nhưng độ phức tạp luồng đi thấp. |AI khuyên nên nâng cấp lên mức Agent để AI tự giao việc trên Trello. |Phủ quyết AI. Ép bài toán dừng ở mức Workflow vì quyền giao task/deadline phải do con người chốt. |
 
 ---
 
@@ -162,20 +165,26 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+  Khi lắng nghe các vấn đề của các bạn trong nhóm (như việc Lộc trăn trở với To-do list sau họp hay Tiệp với việc phân tích lỗi test AI), tôi nhận ra tầm quan trọng của việc phân biệt giữa 'nỗi đau cá nhân' (personal pain) và 'nỗi đau hệ thống/nhóm' (team pain). Việc tôi bị trôi tin nhắn dặn dò cá nhân trên Zalo chỉ ảnh hưởng đến tiến độ của một mình tôi. Nhưng việc cả nhóm cãi vã, đùn đẩy trách nhiệm và mất thời gian sau mỗi buổi họp vì thiếu To-do list chuẩn (ý tưởng của Lộc) lại là điểm nghẽn kìm hãm toàn bộ dự án tập thể. Điều này giúp tôi học được cách định hình lại tiêu chuẩn chọn bài toán dưới góc nhìn Product Manager: phải ưu tiên các vấn đề có hệ số nhân (multiplier effect) và impact lớn hơn đến nhiều người cùng lúc.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+  Có, nhóm tôi đã rơi vào bẫy 'solution-first' rất nặng ngay từ những phút đầu tiên khi chốt đề tài To-do list. Khi vừa thống nhất chọn bài toán này, cả nhóm hào hứng bàn ngay về việc: "Mình làm con bot nhảy vào cuộc gọi Zalo nhé?", "Dùng Whisper API để nhận diện giọng nói đi!". Chúng tôi say sưa bàn về công nghệ mất gần 15 phút. Rất may là khi đối chiếu lại với câu hỏi trong worksheet ("Phương án không dùng AI là gì?"), chúng tôi khựng lại. Chúng tôi tự hỏi: "Nếu không có AI, một thư ký ngồi ghi chép thì mất bao lâu và vướng ở đâu?". Nhờ câu hỏi này, nhóm rũ bỏ được lớp vỏ công nghệ viển vông để quay về phân tích kỹ quy trình As-Is, nhận ra điểm nghẽn cốt lõi chỉ nằm ở khâu dịch nháp và nhớ lại ý sót, từ đó chuyển hướng giải pháp nhẹ nhàng hơn (xử lý text).
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+  Tôi đã đổi ý hoàn toàn sau khi nghe Phúc phản biện về ý tưởng ban đầu của mình ở CP3 (Candidate #4: Gom deadline từ Zalo). Ban đầu tôi rất tự tin và kỳ vọng vào việc làm một công cụ chui vào group chat Zalo để tự động lôi task ra. Tuy nhiên, Phúc đã chỉ ra rủi ro cốt lõi về mặt Feasibility và Viability: "Zalo chặn API riêng tư rất ngặt nghèo, làm sao mầy lấy được tin nhắn tự động? Kể cả lấy được thì cũng vi phạm quyền riêng tư của group chat". Cú phản biện chí mạng này khiến tôi nhận ra mình đã quá lạc quan về công nghệ. Tôi chấp nhận gác lại ý tưởng cá nhân của mình, dồn phiếu để nhóm chọn bài toán To-do list của Lộc vì nó khả thi hơn rất nhiều ở khía cạnh dữ liệu đầu vào.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+  Kết quả research thực tế các công cụ trên thị trường ở CP4 làm tôi khá bất ngờ. Dù các công cụ như Otter.ai hay Zoom AI Companion rất tân tiến ở nước ngoài, nhưng khi đặt vào bối cảnh thực tế của sinh viên Việt Nam, chúng bộc lộ điểm yếu chết người. Sinh viên thường họp nhóm ở quán cafe ồn ào, tranh luận hăng say, nói chèn lên nhau và dùng rất nhiều tiếng lóng/viết tắt. Nếu dùng AI nghe âm thanh trực tiếp trong bối cảnh đó, nó sẽ sinh ra toàn "rác dữ liệu". Điều này củng cố mạnh mẽ nhận định của nhóm tôi: không được phó thác cho AI ghi âm, mà phải dùng quy trình con người kiểm duyệt dữ liệu thô đầu vào rồi mới đưa cho AI xử lý.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+  Theo tôi, điều khó nhất khi viết Problem Statement chính là việc lượng hóa các khái niệm định tính thành các chỉ số (Success Metric) có thể đo đếm được. Ví dụ, việc trưởng nhóm phải "vắt óc nhớ lại xem có ghi sót ý không" là một trạng thái tâm lý mệt mỏi, rất khó quy đổi ra phút nếu không có quan sát thực tế và tự bấm giờ nhiều lần (ra được con số 15-20 phút). Hơn nữa, việc viết Boundary (ranh giới) đòi hỏi sự tính toán rất kỹ: làm sao để AI giúp quá trình này nhanh hơn, nhưng lại không được quyền "ảo giác" tự bịa ra task gán cho người khác. Cân bằng giữa tự động hóa và rủi ro lỗi là một nghệ thuật trong việc viết PS.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+  Nếu được làm lại từ đầu, ở vai trò người phụ trách chính CP4 (Kiểm chứng), tôi sẽ thúc đẩy nhóm tiến hành đi phỏng vấn thực tế ít nhất 3-5 Leader của các nhóm đồ án khác ngay trong buổi chiều hôm đó, thay vì chỉ dựa vào trải nghiệm ước lượng của nội bộ nhóm. Việc thiếu dữ liệu thực tế từ bên ngoài đã khiến chúng tôi rơi vào 'thiên kiến xác nhận' (confirmation bias) và cuối cùng dẫn đến việc Phúc phải đánh giá Value risk là Cao ở CP6. Nếu có sẵn data khách quan, chúng tôi đã có thể tự tin đưa ra quyết định "Go" thay vì phải chốt là "Not Yet".
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
----
+  
+---Bài toán của nhóm xuất phát từ sự lãng phí 15-20 phút của trưởng nhóm khi phải vật lộn định dạng To-do list từ ghi chú lộn xộn sau mỗi buổi họp cãi vã. Quy trình hiện tại phụ thuộc hoàn toàn vào trí nhớ thủ công, rất dễ dẫn đến sai sót và đùn đẩy trách nhiệm. Chúng tôi đặt mục tiêu (metric) là giảm thời gian rà soát, viết To-do list xuống dưới 7 phút mà đảm bảo không sót việc. Để kiểm soát rủi ro ảo giác (AI tự bịa deadline), boundary nghiêm ngặt được thiết lập: AI chỉ được xử lý text nháp, những chỗ mập mờ phải đánh dấu, và bắt buộc phải có con người kiểm duyệt (HITL) trước khi gửi. Dựa trên ranh giới này, mức can thiệp phù hợp nhất là Workflow (AI đóng vai trò "dịch giả" cấu trúc hóa văn bản theo các bước cố định). Cuối cùng, vì nhận thấy dữ liệu chứng minh nỗi đau mới chỉ dừng ở cảm nhận nội bộ nhóm (Value risk cao), nhóm chốt quyết định 'Not Yet' để lên kế hoạch thu thập dữ liệu khách quan từ bên ngoài trước khi tiến hành làm pilot.
 
 ## 7. Tài liệu tham khảo
 
--
+- Google PAIR Guidebook (Chương định hướng Augment vs Automate - hỗ trợ thiết lập Boundary).
+
+- The Mom Test (Rob Fitzpatrick) - Khung tham chiếu để nhóm thiết kế các câu hỏi phỏng vấn kiểm chứng rủi ro Value.
+
+- Otter.ai & Zoom AI Companion - Tham khảo tính năng Action Items tự động để research giải pháp đối thủ ở CP4.
