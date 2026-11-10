@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Nguyễn Lương Phúc | | | |
-| 2 | Nguyễn Tiến Đạt | | | |
+| 2 | Nguyễn Tiến Đạt |2A202603922 | |duhocsinh4to10 |
 | 3 | Trần Xuân Lộc | 2A202603951| | Kaylez-TXL |
 | 4 | Nguyễn Quang Tiệp | 2A202603946 | | nguyenquangtiep |
 
