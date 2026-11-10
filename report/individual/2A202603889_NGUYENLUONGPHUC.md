@@ -144,3 +144,55 @@ HIỆN TẠI — khoảng 10 phút/lần
 | Giả thuyết AI có nguy cơ tự suy diễn trạng thái từ tin nhắn không đầy đủ | Đồng ý | Giới hạn AI chỉ tóm tắt dữ liệu được cho phép; người điều phối phải kiểm tra trước khi phân công lại |
 
 ---
+
+---
+
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Tôi trình bày 3 candidate: cập nhật tiến độ nhóm, xác định yêu cầu bài lab và tìm lại quyết định cũ; nêu actor, bottleneck và số phút của từng problem | Bổ sung 3/12 candidate cho vòng hội tụ và giúp nhóm nhìn thấy pattern chung về thông tin phân tán, tìm kiếm và điều phối công việc |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>1. Với candidate gom deadline: “Zalo hạn chế API, công cụ sẽ đọc tin nhắn tự động bằng cách nào?” (hỏi Nguyễn Tiến Đạt).<br>2. Với candidate tổng hợp slide: “AI có thể bỏ sót kiến thức nâng cao thường xuất hiện trong đề thi không?” (hỏi Trần Xuân Lộc).<br>3. Với candidate chẩn đoán bài test: “Làm sao phân biệt hổng kiến thức với trường hợp người học chỉ đọc nhầm đề?” (hỏi Nguyễn Quang Tiệp). | Các câu hỏi làm rõ feasibility risk của Zalo, rủi ro mất thông tin khi tóm tắt và sự mơ hồ khi chẩn đoán nguyên nhân sai; nhóm dùng các rủi ro này khi loại hoặc hạ điểm candidate |
+| Nhận phản biện | Câu hỏi tôi nhận được:<br>1. Nhóm đã có giờ cập nhật tiến độ cố định chưa? (Nguyễn Tiến Đạt).<br>2. Pain đọc yêu cầu lab do tài liệu lộn xộn hay do chưa có checklist? (Trần Xuân Lộc).<br>3. Ghim tin nhắn quyết định có giải quyết được việc tìm lại không? (Nguyễn Quang Tiệp). | Tôi đã sửa gì: Tôi tách nguyên nhân hành vi/quy trình khỏi thiếu công cụ; bổ sung phương án không dùng AI như giờ cập nhật cố định, checklist và decision log/pin tin nhắn; không mặc định mọi pain đều cần Workflow |
+| Gom cluster / cây OST | Tôi cùng nhóm gom 12 candidate thành 4 cluster và kiểm tra tầng opportunity chỉ chứa pain, không chứa tên công cụ hoặc tính năng | Nhóm xác định outcome “giảm thời gian trưởng nhóm viết To-do list sau họp”, giữ ba opportunity về ghi chú lộn xộn, đối chiếu việc bị sót và định dạng thủ công; loại “AI tự ghi âm” và “bot tự giao task” khỏi tầng opportunity |
+| Chọn candidate problem | Tôi tham gia so sánh shortlist #7, #8 và #4 theo 7 tiêu chí; chấp nhận không chọn candidate cá nhân và ủng hộ candidate #7 vì bottleneck 15–20 phút rõ, vừa sức lab | Nhóm chọn “Tạo To-do list sau họp” với 34 điểm; loại gom deadline vì API Zalo và loại tổng hợp slide vì khó bảo đảm không bỏ sót kiến thức |
+| Kiểm chứng / research | Tôi tham gia rà soát assumption map, thảo luận tín hiệu nội bộ và đối chiếu các pattern Otter.ai/Fireflies.ai, Zoom AI Companion và prompt chuyển text nháp thành To-do list | Nhóm nhận ra bằng chứng hiện còn thiên kiến vì chỉ có người trong nhóm; đồng thời thu hẹp bài toán từ AI tự ghi âm sang nhận ghi chú text thô rồi tạo bản nháp để con người duyệt |
+| Quy trình nhóm | Tôi tham gia đối chiếu quy trình hiện tại 5 bước với quy trình tương lai 4 bước, kiểm tra bottleneck, bước HITL, boundary và phương án quay về | Quy trình làm rõ AI chỉ xử lý bước cấu trúc hóa ghi chú; trưởng nhóm vẫn duyệt trước khi gửi, chỗ thiếu gắn `[Cần làm rõ]`, và có fallback về template/checklist thủ công |
+| Problem Statement | Tôi cùng nhóm rà soát Problem Statement v0/v1, làm rõ actor, bottleneck 18–22 phút, metric tốc độ và chất lượng, AI intervention point và người kiểm tra | v1 bổ sung Workflow, đoạn nguồn, cờ `[Cần làm rõ]`, 5 tiêu chí eval và metric không chỉ đo nhanh hơn mà còn đo bỏ sót, bịa task, gán sai người/deadline |
+| Mức can thiệp AI | Tôi tham gia so sánh No AI / Rule / Workflow / Agent và xem xét phản biện “mức đơn giản hơn có đủ không” | Nhóm chọn Workflow có một bước AI hẹp; No AI/Rule được giữ làm fallback, còn Agent bị loại vì không cần AI tự quyết bước tiếp theo hoặc tự giao việc |
+| Quyết định | Tôi tham gia đánh giá 4 rủi ro và thống nhất Value risk còn Cao vì CP4 chưa có người ngoài nhóm; đề xuất ngưỡng dừng và bước kiểm chứng tiếp theo | Nhóm quyết định **Not Yet**, chưa vội Go; chỉ pilot sau khi có phỏng vấn/baseline thật và dừng Workflow nếu sau 2 tuần hoặc 5 buổi họp không đạt các ngưỡng thời gian, đầy đủ và không bịa |
+
+---
+
+## 5. Dùng AI
+
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+|---|---|---|---|---|
+| CP1 Scan | Gợi ý candidate theo 4 lăng kính và kiểm tra cấu trúc Job Story | Giúp mở rộng góc nhìn, phân biệt problem với solution và gợi ý loại bằng chứng cần đo | AI không biết trải nghiệm thật nên ban đầu chỉ có thể đưa số liệu dạng chỗ trống; một số candidate còn chung chung | Tôi chỉ giữ các candidate đúng với việc học và làm nhóm của mình, rồi thay bằng thời gian, tần suất và số người từ trải nghiệm thực tế |
+| CP2 Problem Card | Xếp hạng top 3, chuyển problem thành quy trình 3–7 bước và đóng vai PM hoài nghi để phản biện | Giúp làm rõ actor, bottleneck, metric và phương án không dùng AI cho từng card | AI phải ước lượng cách phân bổ thời gian giữa các bước và đề xuất target chưa được thử nghiệm thực tế | Tôi giữ baseline từ CP1, đánh dấu các điểm chưa chắc, bổ sung cách đo và ưu tiên thử Rule trước khi chọn Workflow |
+| CP4 Research | Dùng AI để lập bảng so sánh các pattern/công cụ và gợi ý khoảng trống cần kiểm tra; không dùng AI thay phỏng vấn | Giúp liên kết Otter/Fireflies, Zoom AI Companion và prompt xử lý text với từng bước trong quy trình, đồng thời chỉ ra rủi ro tiếng ồn và nói chồng nhau | AI có thể khẳng định quá mức về độ chính xác tiếng Việt, tính năng hoặc mức phù hợp của công cụ; AI cũng không cung cấp bằng chứng hành vi của người dùng thật | Tôi không coi nội dung AI là kết quả kiểm chứng, giữ Value risk ở mức Cao/Not Yet và yêu cầu tự mở nguồn chính thức, phỏng vấn người ngoài nhóm trước khi kết luận |
+| CP5 Quy trình | Dùng AI để chuyển mô tả thành sơ đồ ASCII before/after và phản biện boundary, HITL, fallback | Giúp tách rõ 5 bước hiện tại, 4 bước tương lai, bottleneck 18–22 phút và điểm AI chen vào | AI phải ước lượng thời gian từng bước và có xu hướng giả định mức giảm 70% sẽ đạt được dù chưa pilot | Tôi giữ số liệu dưới dạng baseline/kỳ vọng cần đo, bắt buộc người duyệt, thêm cờ `[Cần làm rõ]` và fallback về template thủ công |
+| CP5–6 Problem Statement | Dùng AI reviewer để tìm lỗ hổng của v0/v1 và kiểm tra metric, boundary, AI intervention point, eval | AI chỉ ra metric ban đầu thiên về tốc độ và giúp bổ sung độ đầy đủ, không bịa, đúng người/deadline, khả năng đối chiếu và thời gian duyệt | AI có thể đề xuất target tuyệt đối như 100% đúng và 0 đính chính khi chưa có bộ test; đôi lúc đưa solution vào Problem Statement quá sớm | Tôi tách rõ v0 và v1, ghi target là tiêu chí pilot cần kiểm chứng, bổ sung cách đo trên nhiều buổi và giới hạn AI chỉ tạo bản nháp có nguồn |
+| CP6 Mức can thiệp / quyết định | Dùng AI để so sánh bốn mức, điền AI Canvas, PAIR, ma trận bốn rủi ro và đề xuất ngưỡng dừng | Giúp phân biệt Workflow với Agent, làm rõ augment thay vì automate và chuyển rủi ro thành điều kiện pilot đo được | AI dễ nghiêng về Go vì Workflow khả thi về kỹ thuật nhưng không thể tự biết người dùng có pain thật hay có sẵn sàng dùng không | Tôi đánh giá Value risk là Cao do kiểm chứng còn nội bộ, chọn **Not Yet** thay vì Go và đặt ngưỡng dừng sau 2 tuần/5 buổi họp cùng fallback No AI/Rule |
+
+---
+
+## 6. Reflection (CP7)
+
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+- Cách xác định scope và độ khả thi của các problems
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+- Có. Khi đó nhóm bỏ tên công cụ khỏi OST và viết lại opportunity
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+- Có. Khi đang xác định bài toán về xây dựng agentic system trả lời câu hỏi khách hàng thì tôi đã được hỏi phản biện về các chi phí phát sinh khi xây dưng. 
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+- Đa phần kết quả đi theo giả định ban đầu.
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+- Cô đọng, xúc tích nhưng vẫn truyền đạt đủ thông tin cần thiết.
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+- Tôi sẽ thực tế hơn ở những lần khảo sát.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+- Problem của nhóm là trưởng nhóm hoặc thư ký mất nhiều thời gian chuyển ghi chú lộn xộn sau cuộc họp thành To-do list rõ ràng. Quy trình hiện tại gồm đọc lại ghi chú, viết lại task, nhớ và kiểm tra việc bị sót, bổ sung người phụ trách/deadline rồi gửi vào nhóm; bottleneck mất khoảng 18–22 phút. Nhóm đặt mục tiêu giảm thời gian soạn và rà soát xuống dưới 7 phút, tổng thời gian hậu kỳ dưới 10 phút, đồng thời không bỏ sót hoặc bịa task. AI không được tự gán người, tự đặt deadline hay tự gửi danh sách; nội dung chưa rõ phải được đánh dấu và con người bắt buộc kiểm tra. Nhóm chọn mức Workflow vì AI chỉ tạo bản nháp ở một bước đã định sẵn, còn trưởng nhóm giữ quyền sửa và gửi. Rule không hiểu được ghi chú viết tắt, còn Agent quá phức tạp và có thể tự hành động sai. Nhóm quyết định Not Yet vì kiểm chứng hiện chủ yếu đến từ nội bộ, nên cần phỏng vấn người ngoài nhóm, đo baseline thật và thử bộ test trước khi chuyển sang Go.
+---
