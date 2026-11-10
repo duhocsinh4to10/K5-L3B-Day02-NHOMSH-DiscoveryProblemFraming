@@ -86,6 +86,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 -
 
+### Nguyễn Tiến Đạt-2A202603922
+
+**Phần việc phụ trách:**
+
+- Nhóm trưởng, phụ trách chính CP3 (Hội tụ nhóm) và CP4 (Kiểm chứng & Research).
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Điều phối buổi hội tụ, gom nhóm ý tưởng (cluster), vẽ Opportunity Solution Tree (OST) và lập bảng chấm điểm candidate. Đảm bảo quyết định chọn To-do list dựa trên bằng chứng đo lường được (15-20 phút rà soát).
+
+- Lập Assumption Map, thiết kế câu hỏi phỏng vấn, lên danh sách công cụ cần đối chiếu (Otter, Fireflies). Đưa ra bằng chứng phỏng vấn (user mất 20p dọn dẹp nháp), quyết định không dùng AI nghe trực tiếp do rủi ro tiếng ồn, chuyển sang giải pháp xử lý text (Workflow).
+
+**Bằng chứng** :
+
+- Các bảng cluster, OST, chấm điểm ở mục 2 `group_report.md`.
+- Assumption map, interview snapshot, bảng research ở mục 3 `group_report.md`.
+- File cá nhân `202603922_NguyenTienDat.md`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Nhận ra sự khác biệt giữa "nỗi đau cá nhân" và "nỗi đau hệ thống". Việc tôi bị trôi tin nhắn là vấn đề của một người, nhưng việc cả nhóm cãi nhau vì chia việc không rõ ràng sau họp là nỗi đau ảnh hưởng đến tiến độ của tập thể.
+- Học cách lùi lại khi bị "solution-first". Thay vì cố ép công nghệ thu âm (Whisper/API) vào quán cafe ồn ào, nhóm đã chọn giải pháp an toàn hơn: AI xử lý phần ghi chú thô của con người.
+
 ### HoVaTen-MSSV
 
 **Phần việc phụ trách:**
@@ -103,7 +126,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
-
 ### HoVaTen-MSSV
 
 **Phần việc phụ trách:**
