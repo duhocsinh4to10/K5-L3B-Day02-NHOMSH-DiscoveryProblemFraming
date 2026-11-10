@@ -309,9 +309,18 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
+**-Hạn chế của bài làm hiện tại:**
+    Thiếu dữ liệu kiểm chứng khách quan (Bias Risk): Baseline về thời gian (15–20 phút) và độ nghiêm trọng của nỗi đau mới chỉ được xác nhận từ trải nghiệm của các thành viên trong nhóm. Điều này dễ dẫn đến "thiên kiến xác nhận" (confirmation bias).
+    Phụ thuộc vào chất lượng đầu vào (Garbage In, Garbage Out): Giải pháp Workflow yêu cầu người thư ký phải ghi chép đủ các từ khóa quan trọng. Nếu bản nháp quá sơ sài hoặc sai lệch ngay từ đầu, AI sẽ không thể suy luận đúng, thậm chí sinh ra "ảo giác" (hallucination) tự bịa deadline hoặc gán sai người.
+    Chưa có bộ test chuẩn (Test set): Nhóm chưa có sẵn các đoạn ghi chú thô từ những buổi họp thực tế để chạy thử nghiệm các câu lệnh (Prompt) và đánh giá độ chính xác của AI dựa trên 5 tiêu chí đã đề ra ở Mục 7.
 
--
-
+**-Hướng tiếp theo (Next steps):**
+    Thực thi kế hoạch kiểm chứng CP4: Tiến hành phỏng vấn sâu ít nhất 3 trưởng nhóm đồ án ngoài lớp (theo phương pháp The Mom Test) và làm khảo sát diện rộng (khoảng 15 sinh viên) để xác thực rủi ro Value.
+    Đánh giá lại Quyết định (Go / No-Go): Sau khi có dữ liệu thật, nếu >60% xác nhận mất trên 15 phút để làm to-do list, nhóm sẽ chuyển trạng thái từ Not Yet sang Go (Pilot).
+    Xây dựng Prototype & Bộ test: Thu thập 3 mẫu ghi chú nháp (đã ẩn danh) từ các buổi họp cũ làm dữ liệu test. Tối ưu hóa Custom Prompt trên ChatGPT/Claude sao cho AI tự động gắn cờ [Cần làm rõ] vào những task thiếu thông tin, giúp người duyệt rà soát nhanh hơn.
+    
 ## 10. Tài liệu tham khảo
-
--
+-Otter.ai Meeting Assistant (Tham khảo tính năng trích xuất Action Item tự động): https://otter.ai
+-Zoom AI Companion (Tham khảo luồng tóm tắt buổi họp online): https://zoom.us/ai-companion
+-The Mom Test (Rob Fitzpatrick) (Phương pháp phỏng vấn tìm hiểu rủi ro Value và né thiên kiến khi hỏi người dùng): Dùng làm cơ sở thiết kế bộ câu hỏi cho kế hoạch phỏng vấn ở giai đoạn sau.
+-Google PAIR Guidebook (Tham khảo cách phân chia ranh giới giữa con người và AI - Augment vs Automate, Human-in-the-loop).
