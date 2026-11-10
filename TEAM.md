@@ -6,7 +6,7 @@
 
 - Tên nhóm: NHOMSH
 - Candidate problem nhóm chọn (1 câu): Khi họp nhóm xong, tôi muốn có ngay danh sách chia việc (To-do list), để không ai quên việc hoặc cãi nhau.
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 
