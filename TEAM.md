@@ -15,7 +15,7 @@
 | 1 | Nguyễn Lương Phúc | 2A202603889 | | phucluo |
 | 2 | Nguyễn Tiến Đạt |2A202603922 | Nhóm trưởng, Phụ trách CP3, CP4  |duhocsinh4to10 |
 | 3 | Trần Xuân Lộc | 2A202603951| Phụ trách quy trình & Problem Statement v0 (CP5) | Kaylez-TXL |
-| 4 | Nguyễn Quang Tiệp | 2A202603946 | | nguyenquangtiep |
+| 4 | Nguyễn Quang Tiệp | 2A202603946 | Phụ trách Mức can thiệp & Problem Statement v1 (CP6) | nguyenquangtiep |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -113,20 +113,22 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Một nỗi đau dù lớn (như việc bị trôi task Zalo) nhưng nếu vướng rào cản kỹ thuật không thể vượt qua (Zalo chặn API), thì PM phải biết từ bỏ để chọn trận chiến khác khả thi hơn (như bài toán To-do list).
 - Hiểu được sự nguy hiểm của "thiên kiến xác nhận". Việc mặc định nỗi đau mất 20 phút sau họp là hiển nhiên với mọi người trong khi chỉ dựa vào trải nghiệm cá nhân là một rủi ro, dẫn đến quyết định "Not Yet" dũng cảm của nhóm.
 
-### HoVaTen-MSSV
+### NguyenQuangTiep-2A202603946
 
 **Phần việc phụ trách:**
 
--
+- Phụ trách mục 6 và 7 của CP6: lựa chọn mức can thiệp AI và viết Problem Statement v1 cho bài toán tạo To-do list sau họp.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- So sánh bốn phương án No AI, Rule, Workflow và Agent. Tôi đề xuất Workflow để AI chuyển ghi chú viết tắt thành bản nháp, sau đó trưởng nhóm hoặc thư ký kiểm tra trước khi gửi.
+- Trong bản v1 đầu tiên, tôi xác định bước AI can thiệp và viết ba tiêu chí kiểm tra bản nháp: đủ việc đã chốt, đúng nội dung phân công và dễ đối chiếu với ghi chú.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- [Commit fbea3bc](https://github.com/duhocsinh4to10/K5-L3B-Day02-NHOMSH-DiscoveryProblemFraming/commit/fbea3bc110bf39337d1eed4d6fff0001bb2c1247) ghi lại các thay đổi ở mục 6 và 7 của [báo cáo nhóm](report/team/group_report.md).
+- [Báo cáo cá nhân](report/individual/2A202603946_NguyenQuangTiep.md), mục 4–6.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Khi viết v1, tôi nhận ra phải chốt điểm bắt đầu và kết thúc trước khi đặt mục tiêu thời gian. Dưới 7 phút là mục tiêu cho khâu soạn và rà soát. Nếu bấm giờ đến lúc gửi tin nhắn, kết quả sẽ tính thêm cả thời gian định dạng và gửi.
