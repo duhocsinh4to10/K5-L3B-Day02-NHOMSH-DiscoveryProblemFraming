@@ -130,7 +130,7 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card |Trình bày candidate cá nhân về bài toán gom deadline từ tin nhắn Zalo/Canvas (Candidate #4). | |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
