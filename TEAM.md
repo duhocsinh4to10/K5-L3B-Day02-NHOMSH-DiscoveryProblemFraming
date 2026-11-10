@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Nguyễn Lương Phúc | 2A202603889 | | phucluo |
+| 1 | Nguyễn Lương Phúc | 2A202603889 | Phụ trách Quyết định & Rủi ro (CP6) | phucluo |
 | 2 | Nguyễn Tiến Đạt |2A202603922 | Nhóm trưởng, Phụ trách CP3, CP4  |duhocsinh4to10 |
 | 3 | Trần Xuân Lộc | 2A202603951| Phụ trách quy trình & Problem Statement v0 (CP5) | Kaylez-TXL |
 | 4 | Nguyễn Quang Tiệp | 2A202603946 | Phụ trách Mức can thiệp & Problem Statement v1 (CP6) | nguyenquangtiep |
