@@ -122,6 +122,7 @@ Tổng hợp:
 |Otter.ai / Fireflies.ai |https://otter.ai |Ghi âm trực tiếp và trích xuất action item |Tự động hóa hoàn toàn, không cần gõ nháp |Tiếng Việt kém, hay bỏ sót ý nếu môi trường ồn hoặc nhiều người tranh luận nói chèn lên nhau. |Rủi ro rác dữ liệu cao, không nên cho AI trực tiếp nghe ghi âm trong bối cảnh họp sinh viên. |
 |Zoom AI Companion |https://zoom.us/ai-companion |Tóm tắt và chia việc từ cuộc gọi online |Có sẵn trong app, chia bước rất chuẩn |Nhóm sinh viên thường họp offline hoặc call Zalo, không dùng Zoom trả phí. |Không nên phụ thuộc vào AI của platform họp. |
 |AI Prompts (ChatGPT/Claude) |- |Chuyển đổi từ text nháp sang To-do list định dạng Markdown |Miễn phí, linh hoạt, xử lý tiếng Việt cực tốt |Trưởng nhóm phải tự dán text và tự copy gửi đi. |Giải pháp thực tế nhất: Dùng Prompt kỹ thuật số, thêm bước người duyệt. |
+
 **Kết luận research:**
 ```
 Dùng AI nghe trực tiếp là quá rủi ro do tiếng ồn và việc nói chèn lên nhau.
