@@ -311,11 +311,11 @@ Vì sao: Ghi chú sau họp có thể viết tắt, lộn xộn. Việc cần di
 ## 9. Hạn chế và hướng tiếp theo
 **-Hạn chế của bài làm hiện tại:**
    
-    Thiếu dữ liệu kiểm chứng khách quan (Bias Risk): Baseline về thời gian (15–20 phút) và độ nghiêm trọng của nỗi đau mới chỉ được xác nhận từ trải nghiệm của các thành viên trong nhóm. Điều này dễ dẫn đến "thiên kiến xác nhận" (confirmation bias).
+ - Thiếu dữ liệu kiểm chứng khách quan (Bias Risk): Baseline về thời gian (15–20 phút) và độ nghiêm trọng của nỗi đau mới chỉ được xác nhận từ trải nghiệm của các thành viên trong nhóm. Điều này dễ dẫn đến "thiên kiến xác nhận" (confirmation bias).
    
-    Phụ thuộc vào chất lượng đầu vào (Garbage In, Garbage Out): Giải pháp Workflow yêu cầu người thư ký phải ghi chép đủ các từ khóa quan trọng. Nếu bản nháp quá sơ sài hoặc sai lệch ngay từ đầu, AI sẽ không thể suy luận đúng, thậm chí sinh ra "ảo giác" (hallucination) tự bịa deadline hoặc gán sai người.
+ - Phụ thuộc vào chất lượng đầu vào (Garbage In, Garbage Out): Giải pháp Workflow yêu cầu người thư ký phải ghi chép đủ các từ khóa quan trọng. Nếu bản nháp quá sơ sài hoặc sai lệch ngay từ đầu, AI sẽ không thể suy luận đúng, thậm chí sinh ra "ảo giác" (hallucination) tự bịa deadline hoặc gán sai người.
    
-    Chưa có bộ test chuẩn (Test set): Nhóm chưa có sẵn các đoạn ghi chú thô từ những buổi họp thực tế để chạy thử nghiệm các câu lệnh (Prompt) và đánh giá độ chính xác của AI dựa trên 5 tiêu chí đã đề ra ở Mục 7.
+ - Chưa có bộ test chuẩn (Test set): Nhóm chưa có sẵn các đoạn ghi chú thô từ những buổi họp thực tế để chạy thử nghiệm các câu lệnh (Prompt) và đánh giá độ chính xác của AI dựa trên 5 tiêu chí đã đề ra ở Mục 7.
 
 **-Hướng tiếp theo (Next steps):**
     
