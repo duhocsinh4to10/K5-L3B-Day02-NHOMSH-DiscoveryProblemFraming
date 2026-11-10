@@ -159,9 +159,9 @@ flowchart LR
 | **Nhận phản biện (CP3)** | **#10:** Trần Xuân Lộc hỏi lỗi do chất lượng ảnh hay mô hình AI. **#11:** Nguyễn Lương Phúc hỏi cách phân biệt hổng kiến thức với đọc nhầm đề. **#12:** Nguyễn Tiến Đạt hỏi cách đo độ phù hợp với các yếu tố mềm như môi trường/lộ trình thăng tiến. | Ba câu hỏi đã có trong báo cáo nhóm. **Hướng kiểm chứng dự kiến:** (1) phân loại nguyên nhân ảnh lỗi; (2) thu thập lập luận của học viên thay vì chỉ nhìn đáp án; (3) tách yêu cầu trong JD có thể kiểm chứng khỏi đánh giá chủ quan. Chưa ghi nhận đây là các bước đã được nhóm thực hiện. |
 | **Gom cluster / cây OST (CP3)** | | Nhóm gom 12 candidate thành 4 cụm. |
 | **Chọn candidate problem (CP3)** | | Nhóm chọn #7 với 34/35 điểm. |
-| **Kiểm chứng / research (CP4)** | | |
+| **Kiểm chứng / research (CP4)** | | Một thành viên tự bấm giờ gần 20 phút cho một buổi. Cả 4/4 thành viên cho biết từng quên việc hoặc nhầm hạn. Đây là dữ liệu nội bộ (mục 3.2). |
 | **Quy trình nhóm (CP5)** | | |
-| **Problem Statement (CP5–CP6)** | Cập nhật mục 7 trong commit `fbea3bc`. | Nêu vị trí AI soạn nháp và tiêu chí đủ việc, đúng phân công, dễ đối chiếu. |
+| **Problem Statement (CP5–CP6)** | Cập nhật mục 7 trong commit `fbea3bc`. | Bản tôi cập nhật có ba tiêu chí: đủ việc, đúng phân công, dễ đối chiếu. Bản chung ở mục 7 hoàn thiện thành năm tiêu chí: đủ việc đã chốt, không bịa, đúng người và hạn, dễ đối chiếu, dễ duyệt. |
 | **Mức can thiệp AI (CP6)** | Cập nhật mục 6 trong cùng commit. | So sánh bốn mức can thiệp và xác định người duyệt bản nháp. |
 | **Quyết định (CP6)** | | Nhóm chọn Not Yet vì còn thiếu kiểm chứng ngoài nhóm và phép đo thực tế. |
 
