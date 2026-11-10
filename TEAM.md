@@ -1,4 +1,4 @@
-# Team
+﻿# Team
 
 > Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Nguyễn Tiến Đạt | Trần Xuân Lộc, Nguyễn Quang Tiệp, Nguyễn Lương Phúc | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Nguyễn Tiến Đạt | Trần Xuân Lộc, Nguyễn Quang Tiệp, Nguyễn Lương Phúc | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Nguyễn Tiến Đạt | Trần Xuân Lộc, Nguyễn Quang Tiệp, Nguyễn Lương Phúc | Bảng research có link |
+| CP5 — Quy trình trước/sau | Trần Xuân Lộc | Nguyễn Tiến Đạt, Nguyễn Quang Tiệp, Nguyễn Lương Phúc | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Trần Xuân Lộc | Nguyễn Tiến Đạt, Nguyễn Quang Tiệp, Nguyễn Lương Phúc | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Quang Tiệp | Nguyễn Tiến Đạt, Trần Xuân Lộc, Nguyễn Lương Phúc | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Nguyễn Lương Phúc | Nguyễn Tiến Đạt, Trần Xuân Lộc, Nguyễn Quang Tiệp | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
