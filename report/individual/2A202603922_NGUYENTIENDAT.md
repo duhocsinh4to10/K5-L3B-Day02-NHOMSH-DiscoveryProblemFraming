@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên:Nguyễn Tiến Đạt
-- MSSV: 202603922
+- MSSV: 2A202603922
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: NHOMSH
 - Link repo nhóm:https://github.com/duhocsinh4to10/K5-L3B-Day02-NHOMSH-DiscoveryProblemFraming
@@ -31,9 +31,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--Giữ lại: Ý #4 (Chia nhỏ tài liệu thành flashcard ôn tập). AI đã giúp tôi nhìn ra cách tận dụng "thời gian chết" (micro-learning) rất phù hợp với lịch trình bận rộn.
-
----Bỏ: AI gợi ý "Dùng bot tự động làm bài tập C". Tôi bỏ vì rủi ro đạo đức, chất lượng (Viability), và mục đích đi làm là để lấy kinh nghiệm thật.
+- **Giữ lại:** Ý #4 (Chia nhỏ tài liệu thành flashcard ôn tập). AI đã giúp tôi nhìn ra cách tận dụng "thời gian chết" (micro-learning) rất phù hợp với lịch trình bận rộn.
+- **Bỏ:** AI gợi ý "Dùng bot tự động làm bài tập C". Tôi bỏ vì rủi ro đạo đức, chất lượng (Viability), và mục đích đi làm là để lấy kinh nghiệm thật.
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
@@ -62,7 +61,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 Quy trình nháp hiện tại:
 
-```[1. Nghe giảng lúc lái xe] → [2. Cố nhớ ý chính] → [3. Về nhà nhắn hỏi lại bạn: 15'] ← BOTTLENECK
+```HIỆN TẠI — 5 bước, khoảng 20 phút rà soát hậu kỳ
+
+[1. Nghe giảng lúc lái xe: 60'] → [2. Cố nhớ ý chính] → [3. Về nhà nhắn hỏi lại bạn: 15'] ← BOTTLENECK
 → [4. Chờ bạn rep: 5'] → [5. Ghi vào sổ: 2']
 
 ```
@@ -84,8 +85,11 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```[1. Đọc tin dặn dò: 1'] → [2. Nhớ tạm] → [3. Tối mở máy: 5'] 
-→ [4. Lội chat tìm lại tin: 10'] ← BOTTLENECK → [5. Gõ tay vào Notion: 5']
+```HIỆN TẠI — 5 bước, khoảng 20 phút
+
+[1. Đọc tin dặn dò: 1'] → [2. Nhớ tạm] → [3. Tối mở máy: 5'] 
+→ [4. Lội chat tìm lại tin: 10'] ← BOTTLENECK 
+→ [5. Gõ tay vào Notion: 5']
 
 ```
 
@@ -106,7 +110,9 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```[1. Hỏi lịch] → [2. Dò G-Calendar: 3'] → [3. Dò lịch C: 2'] ← BOTTLENECK 
+```HIỆN TẠI — 5 bước, khoảng 18 phút
+
+[1. Hỏi lịch] → [2. Dò G-Calendar: 3'] → [3. Dò lịch C: 2'] ← BOTTLENECK 
 → [4. Gõ tin nhắn: 3'] → [5. Chờ chốt: 10']
 
 ```
@@ -130,11 +136,8 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card |Trình bày ý tưởng "Gom deadline tự động từ Zalo/Canvas vào Notion" (Candidate số #4 trong bảng nhóm). |Ý tưởng lọt vào danh sách shortlist của nhóm và đứng thứ 3 chung cuộc (28 điểm). |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:- Hỏi Lương Phúc (Candidate #1): "Nhóm có quy định khung giờ nộp báo cáo cố định không, hay ai thích nhắn lúc nào thì nhắn?"
-
-
-- Hỏi Quang Tiệp (Candidate #12): "Tiêu chuẩn 'phù hợp' rất mơ hồ, làm sao AI đo lường được các yếu tố mềm...?"|Giúp nhóm loại bỏ các ý tưởng có yếu tố đánh giá quá mơ hồ, thiên cảm tính (như chấm JD) để chọn bài toán dễ đo lường bằng phút. |
+| Pitch Problem Card |Trình bày ý tưởng tâm đắc nhất của cá nhân (Card số 2): "Gom deadline tự động từ Zalo/Canvas vào Notion" (Được xếp là Candidate #4 trong bảng Pitch chung của nhóm). |Ý tưởng lọt vào danh sách shortlist của nhóm và đứng thứ 3 chung cuộc (28 điểm). |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:- Hỏi Lương Phúc (Candidate #1): "Nhóm có quy định khung giờ nộp báo cáo cố định không, hay ai thích nhắn lúc nào thì nhắn?"- Hỏi Quang Tiệp (Candidate #12): "Tiêu chuẩn 'phù hợp' rất mơ hồ, làm sao AI đo lường được các yếu tố mềm...?"|Giúp nhóm loại bỏ các ý tưởng có yếu tố đánh giá quá mơ hồ, thiên cảm tính (như chấm JD) để chọn bài toán dễ đo lường bằng phút. |
 | Nhận phản biện | Câu hỏi tôi nhận được:Lương Phúc hỏi: "Zalo chặn API riêng tư rất chặt, làm cách nào để công cụ đọc được tin nhắn tự động?" | Tôi đã sửa gì:Nhận ra rủi ro kỹ thuật (Feasibility) quá cao, tôi đồng ý gác lại candidate của mình để dồn phiếu cho bài toán To-do list của Lộc. Đề xuất cá nhân tự dùng Bot Telegram thay vì làm tool tự động. |
 | Gom cluster / cây OST |Trực tiếp điều phối phiên hội tụ nhóm (CP3). Hỗ trợ Lộc phân loại 12 candidate thành 4 cluster và vẽ Opportunity Solution Tree (OST) cho bài toán To-do list sau họp. |Giúp nhóm loại bỏ các "solution đội lốt opportunity" (như ý tưởng AI tự nhảy vào cuộc gọi), hướng nhóm tập trung vào gốc rễ là việc ghi chép bị lộn xộn. |
 | Chọn candidate problem |Điều hành việc chấm điểm ma trận shortlist (thang 1-5 điểm). |Chốt chọn Candidate #7 (Tạo To-do list sau họp) với số điểm cao nhất (34 điểm) do có baseline đo được bằng phút và vừa sức lab. |
