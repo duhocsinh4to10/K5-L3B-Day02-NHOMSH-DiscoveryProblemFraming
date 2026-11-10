@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Nguyễn Lương Phúc | 2A202603889 | | phucluo |
 | 2 | Nguyễn Tiến Đạt |2A202603922 | Nhóm trưởng, Phụ trách CP3, CP4  |duhocsinh4to10 |
-| 3 | Trần Xuân Lộc | 2A202603951| | Kaylez-TXL |
+| 3 | Trần Xuân Lộc | 2A202603951| Phụ trách quy trình & Problem Statement v0 (CP5) | Kaylez-TXL |
 | 4 | Nguyễn Quang Tiệp | 2A202603946 | | nguyenquangtiep |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
