@@ -82,38 +82,36 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 |Trưởng nhóm mất 15–20 phút sau họp để dịch chữ viết nháp thành to-do list chỉn chu. |Value |5 |2 |✅ |
-| 2 |Bước tốn thời gian nhất không phải gõ chữ, mà là nhớ lại xem có ghi sót ý không và phân đúng người. |Value |5 |2 |✅ |
-| 3 |AI ghi âm sẽ trích xuất sai hoặc sót ý nếu thành viên nói chèn lên nhau hoặc tranh luận sôi nổi. |Feasibility |5 |1 |✅ |
-| 4 |Các thành viên có thói quen đọc To-do list trong group Zalo/Messenger thay vì lên Trello/Notion. |Value |4 |3 |— |
-| 5 |Các thành viên không ngại đưa nội dung họp nhóm (chưa bảo mật cao) vào công cụ AI. |Viability |4 |2 |Hỏi sau lab |
-| 6 | | | | | |
+| 1 |Trưởng nhóm mất 15–20 phút sau họp để dịch chữ viết nháp thành to-do list chỉn chu. |Value |5 |1 |✅ |
+| 2 |Bước tốn thời gian nhất không phải gõ chữ, mà là nhớ lại xem có ghi sót ý không và phân đúng người. |Value |5 |1 |✅ |
+| 3 |AI ghi âm sẽ trích xuất sai hoặc sót ý nếu thành viên nói chèn lên nhau hoặc tranh luận sôi nổi. |Feasibility |5 |2 |✅ |
+| 4 |Các thành viên có thói quen đọc To-do list trong group Zalo/Messenger thay vì lên Trello/Notion. |Value |4 |2 |— |
+| 5 |Các thành viên không ngại đưa nội dung họp nhóm (chưa bảo mật cao) vào công cụ AI. |Viability |4 |1 |Hỏi sau lab |
 
 Giả định nhóm kiểm chứng trong buổi này:
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng:Thảo luận nội bộ & Ước lượng thời gian dựa trên trải nghiệm cá nhân của tác giả ý tưởng (Trần Xuân Lộc).
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) |Trưởng nhóm đồ án Phân tích thiết kế hệ thống, 5 thành viên|
-| Câu nói đáng nhớ nhất (nguyên văn) |"Lúc họp cãi nhau hăng quá tao chỉ ghi vội 'A làm DB, B làm UI'. Tối về phải lội lại tin nhắn, nặn óc nhớ lại xem chốt deadline ngày nào rồi mới dám gõ lên group." |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Chiều thứ Sáu tuần trước, họp tại quán cà phê. |
+| Người được hỏi (vai trò, không ghi tên thật) |Trần Xuân Lộc (Thành viên nhóm - Trải nghiệm cá nhân khi làm Leader môn Phân tích Thiết kế HTTT)|
+| Câu nói đáng nhớ nhất (nguyên văn) |"Lúc họp tranh luận hăng quá mình chỉ ghi vội 'A làm DB, B làm UI'. Tối về phải lội lại tin nhắn, nặn óc nhớ lại xem chốt deadline ngày nào rồi mới gõ tay lên group Zalo."|
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Buổi họp nhóm tối thứ Ba tuần trước.|
 | Hiện đang xử lý bằng cách nào (workaround)? |Tự lội lại lịch sử chat, mở file nháp, rồi gõ thủ công thành checklist để gửi Zalo. |
-| Mất bao lâu, bao lần? |Mất gần 20 phút cho một buổi họp, một tuần họp 2 lần. |
+| Mất bao lâu, bao lần? |Tự bấm giờ mất gần 20 phút cho một buổi họp. |
 | Insight / opportunity rút ra |Nỗi đau nằm ở bước "cấu trúc hóa thông tin" từ nháp/trí nhớ thành văn bản chuẩn, không phải do gõ chậm. |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-|Phỏng vấn |3 |2/3 mất 15–20 phút để gõ lại nháp. 1 bạn từng thử bật Otter ghi âm ở quán cà phê nhưng bỏ vì AI nhận diện sai khi 2 người nói chèn lên nhau. |1 người dùng chung Notion, ép mọi người tự gõ task của mình lúc họp (không cần AI). |
-|Poll trong lớp |8 |6/8 xác nhận đã từng quên việc hoặc cãi nhau do To-do list sau họp bị thiếu ý. |2/8 nói nhóm nhỏ gọn, nhắn tin 1 dòng là xong, không cần format. |
+|Đánh giá nội bộ|4 thành viên |4/4 thành viên từng bị quên việc hoặc nhầm deadline sau họp vì To-do list lộn xộn. |Chưa có tín hiệu phản bác, nhưng rủi ro là dữ liệu bị "thiên kiến xác nhận" (bias) do toàn người trong nhóm tự đồng thuận với nhau. |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** Từ ý định ban đầu là "AI ghi âm tự chép lại cuộc họp", nhóm thu hẹp thành "Nhận đầu vào là ghi chép thô/viết tắt của trưởng nhóm, AI format thành To-do list chuẩn". Điều này giúp né được rủi ro AI nghe sót khi có người nói chèn lên nhau, đồng thời không phụ thuộc vào chất lượng micro.
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Dựa trên phân tích tính khả thi kỹ thuật, nhóm nhận định việc dùng AI ghi âm trực tiếp tại quán cà phê/phòng tự học sẽ sinh ra rất nhiều rác dữ liệu do tiếng ồn và việc nói chèn. Nhóm đã quyết định thu hẹp Problem: Chuyển từ "AI tự ghi âm toàn bộ cuộc họp" thành "Nhận đầu vào là ghi chép thô/viết tắt của người thư ký → AI format thành To-do list chuẩn".
 
 ### 3.3. Research giải pháp đã có
 
